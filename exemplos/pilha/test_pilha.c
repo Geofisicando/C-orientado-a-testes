@@ -1,13 +1,15 @@
 #include "Unity/unity.h"
 #include "pilha.h"
 
-void setUp(){};
+PILHA p;
+
+void setUp(){
+	init(&p);
+};
 
 void tearDown(){};
 
 void test_init(){
-	PILHA p;
-	init(&p);
 	TEST_ASSERT_NULL(p);
 }
 
@@ -27,8 +29,7 @@ void test_top(){
 }
 
 void test_empty(){
-
-	TEST_IGNORE_MESSAGE("Not implemented");
+	TEST_ASSERT(empty(p));
 }
 
 int main(void)

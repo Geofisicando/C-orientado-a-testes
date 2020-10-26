@@ -10,3 +10,7 @@ typedef NO* PILHA;
 void init(PILHA* p){
 	*p = NULL;
 }
+
+int empty(PILHA p){
+	return (p==NULL);
+}
