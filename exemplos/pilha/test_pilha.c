@@ -1,21 +1,19 @@
 #include "Unity/unity.h"
 #include "pilha.h"
-//#define IGNORE_PUSH
 
 void setUp(){};
 
 void tearDown(){};
 
 void test_init(){
-	TEST_MESSAGE("Message init pilha");
+	PILHA p;
+	init(&p);
+	TEST_ASSERT_NULL(p);
 }
 
 void test_push(){
-	#ifdef IGNORE_PUSH
-	TEST_IGNORE_MESSAGE("Not implemented");
-	#endif
 
-	TEST_MESSAGE("Not ignored");
+	TEST_IGNORE_MESSAGE("Not implemented");
 }
 
 void test_pop(){
