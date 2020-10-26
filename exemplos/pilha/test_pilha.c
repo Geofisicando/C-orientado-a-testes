@@ -14,8 +14,11 @@ void test_init(){
 }
 
 void test_push(){
-
-	TEST_IGNORE_MESSAGE("Not implemented");
+	push(&p,2);
+	TEST_ASSERT_FALSE(empty(p));
+	push(&p,3);
+	push(&p,4);
+	TEST_ASSERT_FALSE(empty(p));
 }
 
 void test_pop(){
@@ -25,7 +28,10 @@ void test_pop(){
 
 void test_top(){
 
-	TEST_IGNORE_MESSAGE("Not implemented");
+	push(&p,5);
+	TEST_ASSERT_EQUAL(5,top(p));
+	push(&p,3);
+	TEST_ASSERT_EQUAL(3,top(p));
 }
 
 void test_empty(){
