@@ -30,3 +30,17 @@ int top(PILHA p){
 	if(empty(p)) return -1;
 	return p->n;
 }
+
+void pop(PILHA* p){
+
+	NO* tmp = *p;
+	if(empty(*p))return;
+	*p = (*p)->prox;
+	free(tmp);
+}
+
+void print(PILHA p){
+	if(empty(p)) return;
+	printf("%d \n",p->n);
+	print(p->prox);
+}
