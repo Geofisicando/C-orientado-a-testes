@@ -1,0 +1,21 @@
+#!/usr/bin/expect -f
+  
+spawn ./sistema.x
+
+expect " "
+send -- "0\r"
+
+expect " "
+send -- "3\r"
+
+expect " "
+send -- "2\r"
+
+expect " "
+send -- "1\r"
+
+
+expect " "
+send -- "-1\r"
+
+expect "%"
