@@ -40,7 +40,7 @@ void apagar(FILA* f){
 	free(tmp);
 }
 
-int main(void){
+/*int main(void){
 	FILA f;
 	criar(&f);
 	inserir(&f,29,"Dirack");
@@ -50,4 +50,4 @@ int main(void){
 	puts("**********");
 	apagar(&f);
 	listar(f);
-}
+}*/
