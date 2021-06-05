@@ -17,7 +17,7 @@ void criar(FILA* f){
 void inserir(FILA* f, int idade, const char* nome){
 	
 	if(*f==NULL){
-		*f = (FILA) malloc(sizeof(PESSOA));
+		*f = (PESSOA*) malloc(sizeof(PESSOA));
 		if(*f==NULL) return;
 		(*f)->idade=idade;
 		strcpy((*f)->nome,nome);
