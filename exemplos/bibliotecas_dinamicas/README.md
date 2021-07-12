@@ -65,7 +65,7 @@ ldd main.x
 ```
 
 ## Exemplo
-O diretório 'exemplo' contém um exemplo de uso sobre como criar uma biblioteca estática em C. Para compilar e rodar o exemplo, basta utilizar o comando a seguir:
+O diretório 'exemplo' contém um exemplo de uso sobre como criar uma biblioteca dinâmica em C. Para compilar e rodar o exemplo, basta utilizar o comando a seguir:
 
 ```sh
 make
