@@ -2,17 +2,30 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Compilação das bibliotecas de funções com a opção -fPIC. A seguir uma
-breve descrição do objetivo da flag:
+## Oque são as bibliotecas dinâmicas?
+
+É uma biblioteca carregada dinâmicamente (no momento da execução). Não precisa que o código seja copiado, é feito apenas fazendo uma referência à biblioteca no binário executável. A linkagem ocorre quando o programa é executado, quando o binário executável e a biblioteca estão carregados na memória.
+
+## Vantagens
+
+1. Apenas uma única cópia da biblioteca é carregada na memória quando o programa é executado, assim muita memória é economizada quando vários programas usam esta mesma biblioteca
+
+2. Se uma atualização é feita o programa que utiliza a bilbioteca não precisa ser recompilado, como no caso de bibliotecas estáticas. A manutenção é facilitada
+
+## Desvantagens
+
+1. Necessita de mais tempo para carregar, pois a linkagem é feita durante a execução ao invés de durante a compialação
+
+2. O usuário precisa da biblioteca e do programa principal
+
+## Como criar uma biblioteca dinâmica?
+
+A compilação das bibliotecas de funções é feita com a opção -fPIC. Esta opção é utilizada para fazer um position independent code (PIC), ou
+código independente de posição em tradução livre para o português, que é um requisito para bibliotecas dinâmicas.
+Para realizar a compilação utilize o comando a seguir:
 
 ```sh
 gcc -c -fPIC *.c -o libTest.o
-```
-
-```
-As you can see, the command is very similar to that of Static Library,
-extra option here is -fPIC. This makes position independent code (PIC),
-which is a requirement for dynamic library.
 ```
 
 Após a compilação dos códigos fonte, vem a produção da biblioteca
@@ -31,33 +44,21 @@ gcc main.c libTest.so -o main.x
 A biblioteca dinâmica precisará ser encontrada pelo linker, para fazê-lo
 existem duas possibilidades:
 
-```
-Since Dynamic Library is linked during runtime, we obviously need to
-make this file available during runtime. The dynamic linker searches
-standard paths available in the LD_LIBRARY_PATH.
-
-Or move the library to /usr/local/lib because ‘/usr/local/lib’
-is already a path specified in the ‘LD_LIBRARY_PATH’
-environment variable. Now we need to run
-ldconfig on the directory you moved it to.
-```
-Ou seja, a primeira possibilidade é configurar a variável LD\_LIBRARY\_PATH
+1. a primeira possibilidade é configurar a variável LD\_LIBRARY\_PATH
 com o endereço da pasta onde está a biblioteca dinâmica:
 
 ```sh
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/my_path/
 ```
 
-A segunda possibilidade é mover a biblioteca para '/usr/local/lib' e
+2. A segunda possibilidade é mover a biblioteca para '/usr/local/lib' e
 configurar o cache com o comando ldconfig:
 
 ```sh
 ldconfig /usr/local/lib
 ```
 
-
-Para visualizar as bibliotecas utilizadas por um programa utilize o comando
-ldd:
+Para visualizar as bibliotecas utilizadas por um programa utilize o comando ldd:
 
 ```sh
 ldd main.x
