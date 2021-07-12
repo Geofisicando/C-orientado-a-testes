@@ -27,8 +27,8 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 ### Oque é desenvolvimento orientado a testes?
 
    - #4 - O que é Test Driven Development (TDD - Desenvolvimento orientado a testes)
-   - #[5 - Exemplo função para calcular a hipotenusa (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-5---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-1)
-   - #[6 - Exemplo função para calcular a hipotenusa (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-6---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-2)
+   - [#5 - Exemplo função para calcular a hipotenusa (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-5---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-1)
+   - [#6 - Exemplo função para calcular a hipotenusa (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-6---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-2)
    - #7 - O que é refatoração? Refatoração da função hipotenusa
 
 ### Desenvolvimento de uma Pilha com TDD
