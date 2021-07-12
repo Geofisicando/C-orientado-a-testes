@@ -1,4 +1,6 @@
-# 71 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 2)
+# Aula 71 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 2)
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
 Compilação das bibliotecas de funções com a opção -fPIC. A seguir uma
 breve descrição do objetivo da flag:
