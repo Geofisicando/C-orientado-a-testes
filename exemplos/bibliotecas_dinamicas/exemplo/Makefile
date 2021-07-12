@@ -1,6 +1,4 @@
-#!/bin/bash
-#
-# Makefile (Shell Script)
+# Makefile
 # 
 # Objetivo: Compilar e rodar o exemplo da biblioteca dinâmica.
 # 
