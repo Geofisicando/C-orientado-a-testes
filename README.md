@@ -19,7 +19,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 > Este material de apoio está em manutenção, alguns recursos ainda não estão disponíveis.
 
 ### Framework de testes unitários em C
-  - [#0: Como realizar teste unitário com o Unity](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/intro#0-como-realizar-teste-unit%C3%A1rio-com-o-unity)
+  - [#0: Como realizar teste unitário com o Unity](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/intro/README.md#aula-0---como-realizar-teste-unit%C3%A1rio-com-o-unity)
   - #1 - Testes unitários de float e ignorar testes específicos
   - #2 - Teste unitários com strings e mensagens de erro do unity
   - #3 - Como fazer arquivo Makefile para automatizar testes unitários do unity
@@ -120,4 +120,4 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 ### Bibliotecas estáticas e dinâmicas
 
 - #70 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 1)
-- [#71 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/bibliotecas_dinamicas#71---como-criar-bibliotecas-est%C3%A1ticas-e-din%C3%A2micas-em-c-parte-2)
+- [#71 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/bibliotecas_dinamicas/README.md#aula-71---como-criar-bibliotecas-est%C3%A1ticas-e-din%C3%A2micas-em-c-parte-2)
