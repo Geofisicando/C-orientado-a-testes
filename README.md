@@ -19,7 +19,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 > Este material de apoio está em manutenção, alguns recursos ainda não estão disponíveis.
 
 ### Framework de testes unitários em C
-  - [#0: Como realizar teste unitário com o Unity](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/intro/README.md#aula-0---como-realizar-teste-unit%C3%A1rio-com-o-unity)
+  - [#0 - Como realizar teste unitário com o Unity](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/intro/README.md#aula-0---como-realizar-teste-unit%C3%A1rio-com-o-unity)
   - #1 - Testes unitários de float e ignorar testes específicos
   - #2 - Teste unitários com strings e mensagens de erro do unity
   - #3 - Como fazer arquivo Makefile para automatizar testes unitários do unity
@@ -27,8 +27,8 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 ### Oque é desenvolvimento orientado a testes?
 
    - #4 - O que é Test Driven Development (TDD - Desenvolvimento orientado a testes)
-   - #5 - [Exemplo função para calcular a hipotenusa (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-5---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-1)
-   - #6 - [Exemplo função para calcular a hipotenusa (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-6---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-2)
+   - #[5 - Exemplo função para calcular a hipotenusa (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-5---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-1)
+   - #[6 - Exemplo função para calcular a hipotenusa (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-6---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-2)
    - #7 - O que é refatoração? Refatoração da função hipotenusa
 
 ### Desenvolvimento de uma Pilha com TDD
