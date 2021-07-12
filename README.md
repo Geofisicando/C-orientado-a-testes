@@ -16,3 +16,5 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 - http://www.throwtheswitch.org/unity
 
 ## Índice (Em manutenção)
+
+* [Aula 0: Como realizar teste unitário com o Unity](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/intro#aula-0-como-realizar-teste-unit%C3%A1rio-com-o-unity)
