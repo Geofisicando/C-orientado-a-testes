@@ -26,30 +26,30 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 
 ### Oque é desenvolvimento orientado a testes?
 
-    #4 - O que é Test Driven Development (TDD - Desenvolvimento orientado a testes)
-    #5 - Exemplo função para calcular a hipotenusa (Parte 1)
-    #6 - Exemplo função para calcular a hipotenusa (Parte 2)
-    #7 - O que é refatoração? Refatoração da função hipotenusa
+   - #4 - O que é Test Driven Development (TDD - Desenvolvimento orientado a testes)
+   - #5 - Exemplo função para calcular a hipotenusa (Parte 1)
+   - #6 - Exemplo função para calcular a hipotenusa (Parte 2)
+   - #7 - O que é refatoração? Refatoração da função hipotenusa
 
 ### Desenvolvimento de uma Pilha com TDD
 
-    #8 - Implementação de uma estrutura de dados do tipo Pilha com TDD
-    #9 - Função init (inicialização da Pilha)
-    #10 - Função empty (verificar se a Pilha está vazia)
-    #11 - Função push (empilhar elemento na Pilha)
-    #12 - Função Top (verificar elemento no topo da Pilha)
-    #13 - Função Pop (remover elemento do topo da pilha, desempilhar)
-    #14 - Função Print (exibir elementos da pilha no terminal)
+   - #8 - Implementação de uma estrutura de dados do tipo Pilha com TDD
+   - #9 - Função init (inicialização da Pilha)
+   - #10 - Função empty (verificar se a Pilha está vazia)
+   - #11 - Função push (empilhar elemento na Pilha)
+   - #12 - Função Top (verificar elemento no topo da Pilha)
+   - #13 - Função Pop (remover elemento do topo da pilha, desempilhar)
+   - #14 - Função Print (exibir elementos da pilha no terminal)
 
 ### Estratégias de depuração
 
-    #15 - Como utilizar cores no terminal, em saídas de programas em C e no Unity
-    #16 - Variáveis booleanas e implementação da interface stdbool em c
-    #17 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 1)
-    #18 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 2)
-    #19 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 3)
-    #20 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 4)
-    #21 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 5)
+   - #15 - Como utilizar cores no terminal, em saídas de programas em C e no Unity
+   - #16 - Variáveis booleanas e implementação da interface stdbool em c
+   - #17 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 1)
+   - #18 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 2)
+   - #19 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 3)
+   - #20 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 4)
+   - #21 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 5)
 
 ### Estratégias de refatoração
 
