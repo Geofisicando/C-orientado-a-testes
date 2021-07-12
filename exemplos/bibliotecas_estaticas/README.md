@@ -32,8 +32,9 @@ O nome "estática" é uma referência ao fato de que a biblioteca permanecerá i
 Para fazer a compilação utilize:
 
 ```sh
-gcc -c *.c # compilar código fonte
-ar -rc liballoc.a *.o # gerar biblioteca
+gcc -c *.c # Compilar código fonte
+ar -rc liballoc.a *.o # Gerar biblioteca
+ranlib liballoc.a # Organizar lista de símbolos
 ```
 
 Observe que o padrão para a nomeação da biblioteca deve ser o prefixo 'lib' e a extensão '.a'.
