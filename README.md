@@ -119,5 +119,5 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 
 ### Bibliotecas estáticas e dinâmicas
 
-- #70 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 1)
+- [#70 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/bibliotecas_estaticas/README.md#aula-70---como-criar-bibliotecas-est%C3%A1ticas-e-din%C3%A2micas-em-c-parte-1)
 - [#71 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/bibliotecas_dinamicas/README.md#aula-71---como-criar-bibliotecas-est%C3%A1ticas-e-din%C3%A2micas-em-c-parte-2)
