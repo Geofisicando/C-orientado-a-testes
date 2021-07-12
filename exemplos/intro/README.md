@@ -27,7 +27,8 @@ Unity/
 0 directories, 4 files
 ```
 
-Esta pasta já contém um exemplo simples de teste unitário com o Unity que você poderá usar como template das suas suítes de teste. Para rodar o exemplo,
+Esta pasta já contém um exemplo simples de teste unitário com o Unity no arquivo 'test_exemplo.c'
+que você poderá usar como template das suas suítes de teste. Para rodar o exemplo,
 utilize o comando a seguir:
 
 ```sh
