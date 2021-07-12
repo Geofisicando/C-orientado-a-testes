@@ -50,5 +50,14 @@ Utilize o comando a seguir para visualizar o conteúdo da biblioteca:
 ar -t liballoc.a
 ```
 
+## Exemplo
+
+O diretório 'exemplo' contém um exemplo de uso sobre como criar uma biblioteca estática em C. Para compilar e rodar o exemplo, basta utilizar o comando
+a seguir:
+
+```sh
+make
+```
+
 ### Referências
 * [Everything you need to know about libraries in c](https://medium.com/@meghamohan/everything-you-need-to-know-about-libraries-in-c-e8ad6138cbb4)
