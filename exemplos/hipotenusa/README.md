@@ -19,3 +19,11 @@ make
 # Aula 6 - Exemplo função para calcular a hipotenusa (Parte 2)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+Nesta aula nós testamos casos limites onde o usuário oferece valores inválidos para a função hipotenusa criada na aula anterior.
+
+Para rodar os testes deste diretório basta utilizar o seguinte comando:
+
+```
+make
+```
