@@ -16,7 +16,7 @@ Nesta aula aprendemos oque é a refatoração e quais os seus benefícios para o
 
 slides | pdf | Windows | Linux |
 --- | --- | --- | --- |
-Oque é TDD? | [[pdf]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/oque_e_TDD.pdf) | [[pptx]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/oque_e_TDD.pptx) | [[odp]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/oque_e_TDD.odp) |
+Oque é Refatoração? | [[pdf]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/refatoracao.pdf) | [[pptx]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/refatoracao.pptx) | [[odp]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/refatoracao.odp) |
 
 Também fizemos a refatoração da função hipotenusa desenvolvida nas Aulas [5](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-5---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-1) e [6](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/hipotenusa#aula-6---exemplo-fun%C3%A7%C3%A3o-para-calcular-a-hipotenusa-parte-2) utilizando TDD. Você pode encontrar o exemplo
 da função hipotenusa refatorada no link a seguir:
