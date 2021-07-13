@@ -17,3 +17,9 @@ all:	test_example.x
 test_example.x:	test_example.c
 	gcc test_example.c Unity/unity.c -o test_example.x
 	./test_example.x
+
+clean:
+	rm *.x
+
+help:
+	@echo "Para compilar e rodar o exemplo utilize o comando 'make'"
