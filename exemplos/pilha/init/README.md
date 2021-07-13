@@ -1,21 +1,36 @@
-# Aula 8 - Implementação de uma estrutura de dados do tipo Pilha com TDD
+# Aula 9 - Função init (inicialização da Pilha)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós preparamos a suíte de testes e o Makefile para automatizar os testes antes de começar a implementação da nossa estrutura de 
-dados pilha com TDD. Uma boa prática é criar o esboço dos casos de teste no Unity e utilizar a macro a seguir para ignorar as funções enquanto
-os testes ainda não foram implementados:
+Nesta aula iremos criar a estrutura de dados pilha e a função init que inicializa a pilha.
+A estrutura de dados é uma pilha de inteiros em que cada nó possui um ponteiro que aponta para o próximo nó da pilha e o último
+nó aponta para NULL (Final da pilha).
 
 ```c
-TEST_IGNORE_MESSAGE("Not implemented");
+struct sNo{
+	int n;
+	struct sNo* prox;
+};
+typedef struct sNo NO;
 ```
 
-Assim saberemos que o teste precisa ser feito, mas ainda não foi implementado.
+O ponteiro da pilha é um ponteiro para um nó e aponta para o topo da pilha.
+
+```c
+typedef NO* PILHA;
+```
+
+A pilha está inicialmente vazia. Assim, o ponteiro da pilha inicia apontando para NULL.
+
+```c
+void init(PILHA* p){
+	*p = NULL;
+}
+```
 
 ## Exemplo de uso
 
-Neste diretório temos o exemplo de uso desta etapa da implementação da pilha, você pode compilar e rodar os testes
-utilizando o seguinte comando:
+Para compilar e rodar o exemplo de uso deste diretório basta rodar o seguinte comando:
 
 ```sh
 make
