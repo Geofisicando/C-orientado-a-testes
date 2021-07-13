@@ -7,3 +7,11 @@ Nesta aula aprendemos oque é o TDD e quais os seus benefícios para o desenvolv
 slides | pdf | Windows | Linux |
 --- | --- | --- | --- |
 Oque é TDD? | [[pdf]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/oque_e_TDD.pdf) | [[pptx]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/oque_e_TDD.pptx) | [[odp]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/oque_e_TDD.odp) |
+
+# Aula 7 - O que é refatoração? Refatoração da função hipotenusa
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+slides | pdf | Windows | Linux |
+--- | --- | --- | --- |
+Oque é TDD? | [[pdf]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/oque_e_TDD.pdf) | [[pptx]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/oque_e_TDD.pptx) | [[odp]](https://github.com/Geofisicando/C-orientado-a-testes/raw/main/slides/oque_e_TDD.odp) |
