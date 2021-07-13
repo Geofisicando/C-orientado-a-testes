@@ -19,8 +19,8 @@ TEST_IGNORE();
 
 O teste será ignorado mesmo que seja chamado pela função main.
 
-No diretório exemplo temos um exemplo de uso das asseções desta aula. Para compilar e rodar o exemplo basta utilizar o
-seguinte comando:
+No diretório exemplo temos um exemplo de uso das asseções desta aula no arquivo 'test_exemplo.c'. Para compilar e rodar o exemplo de uso basta utilizar o
+seguinte comando dentro do diretório exemplo:
 
 ```sh
 make
