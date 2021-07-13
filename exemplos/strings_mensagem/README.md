@@ -1,5 +1,7 @@
 # Aula 2 - Teste unitários com strings e mensagens de erro do unity
 
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
 Nesta aula nós aprendemos a testar a igualdade entre duas strings utilizando a macro do Unity a seguir:
 
 ```c
