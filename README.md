@@ -39,7 +39,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - #11 - Função push (empilhar elemento na Pilha)
    - #12 - Função Top (verificar elemento no topo da Pilha)
    - #13 - Função Pop (remover elemento do topo da pilha, desempilhar)
-   - #14 - Função Print (exibir elementos da pilha no terminal)
+   - [#14 - Função Print (exibir elementos da pilha no terminal)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/pilha/final#aula-14---fun%C3%A7%C3%A3o-print-exibir-elementos-da-pilha-no-terminal)
 
 ### Estratégias de depuração
 
