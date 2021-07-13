@@ -35,7 +35,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 
    - [#8 - Implementação de uma estrutura de dados do tipo Pilha com TDD](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/pilha/intro#aula-8---implementa%C3%A7%C3%A3o-de-uma-estrutura-de-dados-do-tipo-pilha-com-tdd)
    - [#9 - Função init (inicialização da Pilha)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/pilha/init#aula-9---fun%C3%A7%C3%A3o-init-inicializa%C3%A7%C3%A3o-da-pilha)
-   - #10 - Função empty (verificar se a Pilha está vazia)
+   - [#10 - Função empty (verificar se a Pilha está vazia)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/pilha/empty#aula-10---fun%C3%A7%C3%A3o-empty-verificar-se-a-pilha-est%C3%A1-vazia)
    - #11 - Função push (empilhar elemento na Pilha)
    - #12 - Função Top (verificar elemento no topo da Pilha)
    - #13 - Função Pop (remover elemento do topo da pilha, desempilhar)
