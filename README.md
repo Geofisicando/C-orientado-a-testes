@@ -38,7 +38,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#10 - Função empty (verificar se a Pilha está vazia)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/pilha/empty#aula-10---fun%C3%A7%C3%A3o-empty-verificar-se-a-pilha-est%C3%A1-vazia)
    - [#11 - Função push (empilhar elemento na Pilha)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/pilha/push#aula-11---fun%C3%A7%C3%A3o-push-empilhar-elemento-na-pilha)
    - [#12 - Função Top (verificar elemento no topo da Pilha)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/pilha/top#aula-12---fun%C3%A7%C3%A3o-top-verificar-elemento-no-topo-da-pilha)
-   - #13 - Função Pop (remover elemento do topo da pilha, desempilhar)
+   - [#13 - Função Pop (remover elemento do topo da pilha, desempilhar)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/pilha/pop#aula-13---fun%C3%A7%C3%A3o-pop-remover-elemento-do-topo-da-pilha-desempilhar)
    - [#14 - Função Print (exibir elementos da pilha no terminal)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/pilha/final#aula-14---fun%C3%A7%C3%A3o-print-exibir-elementos-da-pilha-no-terminal)
 
 ### Estratégias de depuração
