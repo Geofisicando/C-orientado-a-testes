@@ -22,7 +22,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
   - [#0 - Como realizar teste unitário com o Unity](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/intro/README.md#aula-0---como-realizar-teste-unit%C3%A1rio-com-o-unity)
   - [#1 - Testes unitários de float e ignorar testes específicos](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/float_ignore#aula-1---testes-unit%C3%A1rios-de-float-e-ignorar-testes-espec%C3%ADficos)
   - [#2 - Teste unitários com strings e mensagens de erro do unity](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/strings_mensagem#aula-2---teste-unit%C3%A1rios-com-strings-e-mensagens-de-erro-do-unity)
-  - #3 - Como fazer arquivo Makefile para automatizar testes unitários do unity
+  - [#3 - Como fazer arquivo Makefile para automatizar testes unitários do unity](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/Makefile_automatizar_testes#aula-3---como-fazer-arquivo-makefile-para-automatizar-testes-unit%C3%A1rios-do-unity)
 
 ### Oque é desenvolvimento orientado a testes?
 
