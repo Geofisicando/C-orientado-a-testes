@@ -114,8 +114,8 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - #65 - Como testar ponteiros em linguagem C utilizando o Unity
    - #66 - Como testar arrays em linguagem C utilizando o Unity
    - #67 - Como testar vetores de structs em linguagem C utilizando o Unity
-   - #68 - Criar um separador de strings em C na forma chave=valor (Parte 1)
-   - #69 - Criar um separador de strings em C na forma chave=valor (Parte 2)
+   - [#68 - Criar um separador de strings em C na forma chave=valor (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/string_sep/README.md#aula-68---criar-um-separador-de-strings-em-c-na-forma-chavevalor-parte-1)
+   - [#69 - Criar um separador de strings em C na forma chave=valor (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/string_sep/README.md#aula-69---criar-um-separador-de-strings-em-c-na-forma-chavevalor-parte-2)
 
 ### Bibliotecas estáticas e dinâmicas
 
