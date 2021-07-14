@@ -16,7 +16,7 @@ all:	exemplo.x
 	./exemplo.x
 
 exemplo.x:	exemplo.c
-	gcc exemplo.c -o exemplo.x
+	gcc exemplo.c -o exemplo.x -g
 
 clean:
 	rm *.x
