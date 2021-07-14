@@ -43,11 +43,11 @@ key = (char*) malloc(keylen*sizeof(char));
 memcpy(key,keyval,keylen);
 ```
 
-A string key ficará da seguinte maneira após a cópia:
+A string key (:arrow_double_down:, que aponta para o início da string 'chave=') ficará da seguinte maneira após a cópia:
 
-:arrow_down_small: | . | . | . | . | . | :arrow_down: | . | .| . | . |
- ---|---|---|---|---|---|---|---|---|---|---|
-c | h | a | v | e | = | v | a | l | o | r |
+:arrow_double_down: | . | . | . | . | . |
+ ---|---|---|---|---|---|
+c | h | a | v | e | = |
 
 Daí basta substituir o caractere delimitador por '\0' para concluir a separação da chave:
 
@@ -57,6 +57,6 @@ key[keylen-1]='\0';
 
 Após a atribuição acima a string key ficará assim:
 
-:arrow_down_small: | . | . | . | . | . | :arrow_down: | . | .| . | . |
- ---|---|---|---|---|---|---|---|---|---|---|
-c | h | a | v | e | = | v | a | l | o | r |
+:arrow_down_small: | . | . | . | . | . |
+ ---|---|---|---|---|---|
+c | h | a | v | e | '\0' |
