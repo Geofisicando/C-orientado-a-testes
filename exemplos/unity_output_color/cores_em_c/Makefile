@@ -13,15 +13,13 @@
 # Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
 
 CC = gcc
-TEST = test_pilha.x
-UNITY = Unity/unity.c
+TEST = teste.x
 
 all:	$(TEST)
 
-test_%.x:	test_%.c
-	$(CC) $< $(UNITY) -o $@
+%.x:	%.c
+	$(CC) $< -o $@
 	./$@
-	rm $@
 
 clean:
 	rm *.x
