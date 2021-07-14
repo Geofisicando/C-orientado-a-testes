@@ -25,3 +25,11 @@ c | h | a | v | e | = | v | a | l | o | r |
 # Aula 69 - Criar um separador de strings em C na forma chave=valor (Parte 2)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+Nesta aula finalizamos a implementação da função separadora de strings na forma 'chave=valor' utilizando o caractere '=' como delimitador.
+Para calcular o comprimento da chave precisamos utilizar a aritmética de ponteiros. Para tanto, fazemos a diferença entre o ponteiro
+eq (:arrow_down:, que aponta para o início da string 'valor') e o ponteiro keyval (:arrow_down_small:, que aponta para o começo da string 'chave=valor').
+
+:arrow_down_smal: | . | . | . | . | . | :arrow_down: | . | .| . | . |
+ ---|---|---|---|---|---|---|---|---|---|---|
+c | h | a | v | e | = | v | a | l | o | r |
