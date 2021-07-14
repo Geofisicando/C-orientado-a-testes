@@ -43,7 +43,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 
 ### Estratégias de depuração
 
-   - #15 - Como utilizar cores no terminal, em saídas de programas em C e no Unity
+   - [#15 - Como utilizar cores no terminal, em saídas de programas em C e no Unity](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/unity_output_color/README.md#aula-15---como-utilizar-cores-no-terminal-em-sa%C3%ADdas-de-programas-em-c-e-no-unity)
    - #16 - Variáveis booleanas e implementação da interface stdbool em c
    - #17 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 1)
    - #18 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 2)
