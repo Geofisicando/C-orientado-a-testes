@@ -30,6 +30,33 @@ Nesta aula finalizamos a implementação da função separadora de strings na fo
 Para calcular o comprimento da chave precisamos utilizar a aritmética de ponteiros. Para tanto, fazemos a diferença entre o ponteiro
 eq (:arrow_down:, que aponta para o início da string 'valor') e o ponteiro keyval (:arrow_down_small:, que aponta para o começo da string 'chave=valor').
 
-:arrow_down_smal: | . | . | . | . | . | :arrow_down: | . | .| . | . |
+:arrow_down_small: | . | . | . | . | . | :arrow_down: | . | .| . | . |
+ ---|---|---|---|---|---|---|---|---|---|---|
+c | h | a | v | e | = | v | a | l | o | r |
+
+Como cada caractere tem 1 byte de tamanho, esta diferença equivale ao tamanho da string 'chave' mais o delimitador '=' (6 bytes). Daí basta
+alocar a memória correspondente e copiar a string utilizando a função memcpy:
+
+```c
+keylen = (size_t) (eq-keyval);
+key = (char*) malloc(keylen*sizeof(char));
+memcpy(key,keyval,keylen);
+```
+
+A string key ficará da seguinte maneira após a cópia:
+
+:arrow_down_small: | . | . | . | . | . | :arrow_down: | . | .| . | . |
+ ---|---|---|---|---|---|---|---|---|---|---|
+c | h | a | v | e | = | v | a | l | o | r |
+
+Daí basta substituir o caractere delimitador por '\0' para concluir a separação da chave:
+
+```c
+key[keylen-1]='\0';
+```
+
+Após a atribuição acima a string key ficará assim:
+
+:arrow_down_small: | . | . | . | . | . | :arrow_down: | . | .| . | . |
  ---|---|---|---|---|---|---|---|---|---|---|
 c | h | a | v | e | = | v | a | l | o | r |
