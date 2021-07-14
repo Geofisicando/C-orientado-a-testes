@@ -60,3 +60,11 @@ Após a atribuição acima a string key ficará assim:
 :arrow_down_small: | . | . | . | . | . |
  ---|---|---|---|---|---|
 c | h | a | v | e | '\0' |
+
+## Exemplo de uso
+
+Você pode compilar e rodar o exemplo de uso deste diretório utilizando o comando a seguir:
+
+```sh
+make
+```
