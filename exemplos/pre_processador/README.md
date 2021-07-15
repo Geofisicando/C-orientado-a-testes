@@ -13,3 +13,11 @@ gcc -E teste.c
  Este comando irá exibir o resultado do pré processamento na tela do terminal.
  O pré processador irá expandir a Macro NOME, definida no arquivo [\_maisum.h](https://github.com/Geofisicando/C-orientado-a-testes/blob/1a2c80c73077ca97764c19f98b3c845c86cf89d7/exemplos/pre_processador/_maisum.h#L3), e irá acresencentar os arquivos 
 include respeitando o ifndef em [\_bool.h](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/pre_processador/_bool.h).
+
+Você também pode rodar este exemplo com o comando a seguir:
+
+```sh
+make
+```
+
+Este comando também irá exibir o resultado do pré processamento de 'teste.c' na tela do terminal.
