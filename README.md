@@ -90,7 +90,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 
    - #48 - Como enviar e tratar sinais e processos no Linux com C (Parte 1)
    - #49 - Como enviar e tratar sinais e processos no Linux com C (Parte 2)
-   - #50 - Automatizar envio de sinais ao processo com um programa de monitoramento
+   - [#50 - Automatizar envio de sinais ao processo com um programa de monitoramento](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/sinais/monitor#aula-50---automatizar-envio-de-sinais-ao-processo-com-um-programa-de-monitoramento)
 
 ### Desenvolvimento de uma Fila em C com o GDB
 
