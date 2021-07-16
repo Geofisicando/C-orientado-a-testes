@@ -16,6 +16,7 @@ responder executando a função tratasinal.
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
+Nesta aula implementamos outra função de resposta a um sinal enviado a este programa dando continuidade a aula anterior.
 
 ## Exemplo de uso
 
