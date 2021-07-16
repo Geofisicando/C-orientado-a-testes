@@ -30,5 +30,5 @@ Para compilar o código utilizado nesta aula com o programa 'make' basta rodar o
 make
 ```
 
-O binário executável 'exemplo.x' será gerado com as asserts habilitadas. Se quiser desativar a assert, basta descomentar a [linha 2](https://github.com/Geofisicando/C-orientado-a-testes/blob/ee254d5ef0363a81635f816b52e45e24e1c95479/exemplos/assert_ndebug/exemplo.c#L2)
+O binário executável 'exemplo.x' será gerado com as asserts habilitadas. Se quiser desativar a assert, basta descomentar a [linha 18](https://github.com/Geofisicando/C-orientado-a-testes/blob/2d0eb5cc4a8c61ebbc0fdd93f55090a77aeee98b/exemplos/assert_ndebug/exemplo.c#L18)
 para definir a macro NDEBUG.
