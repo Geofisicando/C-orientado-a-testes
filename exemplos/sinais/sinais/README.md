@@ -24,3 +24,23 @@ Você pode compilar e rodar o exemplo de uso deste diretório com o comando a se
 ```sh
 make
 ```
+
+O programa sinais irá iniciar em um outro terminal e Makefile irá monitorar este programa a partir deste terminal enviando sinais ao processo.
+Se você precisar encerrar o processo 'sinais.x' basta utilizar o seguinte comando:
+
+```sh
+killall sinais.x
+```
+
+Todos os processos com o nome 'sinais.x' serão encerrados. Outra forma de encerrar o processo é enviando o sinal -9 utilizando o comando kill,
+para isto você irá precisar do PID do processo sinais, você pode obter o PID do processo utilizando o seguinte comando:
+
+```sh
+pidof sinais.x
+```
+
+E encerrar o processo sinais enviando o sinal -9 (substitua PID pelo PID do processo):
+
+```sh
+kill -9 PID
+```
