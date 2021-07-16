@@ -10,7 +10,7 @@ de tipo pid_t que armazena o PID do processo e o segundo é o sinal a ser enviad
 k = kill(pid,2);
 ```
 
-O programa 'sinais.x', desenvolvido nas aulas 48 e 49, tem funções especiais para o tratamento dos sinais passados pelo programa monitor.
+O programa 'sinais.x', desenvolvido nas aulas [48](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/sinais/sinais#aula-48---como-enviar-e-tratar-sinais-e-processos-no-linux-com-c-parte-1) e [49](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/sinais/sinais#aula-49---como-enviar-e-tratar-sinais-e-processos-no-linux-com-c-parte-2), tem funções especiais para o tratamento dos sinais passados pelo programa monitor.
 Ao receber o sinal 2 o programa 'sinais.x' atualiza o valor da variável global a e ao receber o sinal 15 encerra a execução. Assim, o programa
 'monitor.x' pode controlar a execução de 'sinais.x'.
 
