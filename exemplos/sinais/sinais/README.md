@@ -10,13 +10,18 @@ signal(15,tratasinal);
 ```
 
 O primeiro parâmetro da função é o sinal e o segundo parâmetro é a função de resposta. Assim, quando este programa receber o sinal 15, ele irá
-responder executando a função tratasinal.
+responder executando a função tratasinal que encerra a execução do processo.
 
 # Aula 49 - Como enviar e tratar sinais e processos no Linux com C (Parte 2)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula implementamos outra função de resposta a um sinal enviado a este programa dando continuidade a aula anterior.
+Nesta aula implementamos outra função de resposta a um sinal enviado a este programa dando continuidade a aula anterior. Nós implementamos
+a função para reiniciar o valor da variável global a para 0 quando o processo receber o sinal 15.
+
+```c
+signal(2,reinicia_a);
+```
 
 ## Exemplo de uso
 
