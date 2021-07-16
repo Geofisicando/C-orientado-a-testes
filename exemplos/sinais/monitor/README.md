@@ -2,7 +2,17 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós implementamos um programa para monitorar um processo enviando sinais.
+Nesta aula nós implementamos um programa para monitorar um processo enviando sinais. O programa 'monitor.x' recebe o PID de um processo (programa em execução)
+através de leitura com scanf e envia sinais a este processo utilizando a função kill. A função kill recebe dois parâmetros, o primeiro é uma variável
+de tipo pid_t que armazena o PID do processo e o segundo é o sinal a ser enviado ao processo:
+
+```c
+k = kill(pid,2);
+```
+
+O programa 'sinais.x', desenvolvido nas aulas 48 e 49, tem funções especiais para o tratamento dos sinais passados pelo programa monitor.
+Ao receber o sinal 2 o programa 'sinais.x' atualiza o valor da variável global a e ao receber o sinal 15 encerra a execução. Assim, o programa
+'monitor.x' pode controlar a execução de 'sinais.x'.
 
 ## Exemplo de uso
 
