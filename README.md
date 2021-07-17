@@ -62,7 +62,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 
 ### Depuração profissional com o GDB
 
-   - #28 - Como depurar um programa em C de maneira profissional? O depurador GDB
+   - [#28 - Como depurar um programa em C de maneira profissional? O depurador GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/intro#aula-28---como-depurar-um-programa-em-c-de-maneira-profissional-o-depurador-gdb)
    - #29 - Comandos básicos do GDB: run, start, next, print e break
    - #30 - Depurar um programa passo a passo com breakpoints do GDB
    - #31 - Depuração de funções de bibliotecas em C com o comando step do GDB
