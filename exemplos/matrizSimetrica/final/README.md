@@ -7,7 +7,7 @@ condicionamos as mensagens de logging das funções acessa e atribui à definiç
 basta descomentar esta linha.
 
 Por fim, podemos modificar o programa principal em 'main.c' para exibir os elementos da matriz simétrica em um looping ao invés de testar
-se a matriz é simétrica ou não, pois os testes já são feitos pela suíte de testes. Veja a [nova versão do programa principal](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/matrizSimetrica/final/main.c).
+se a matriz é simétrica ou não, pois os testes já são feitos pela suíte de testes em 'test_matriz.c'. Veja a [nova versão do programa principal](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/matrizSimetrica/final/main.c).
 
 ## Exemplo de uso
 
