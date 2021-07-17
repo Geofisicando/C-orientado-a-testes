@@ -2,7 +2,7 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós finalizamos a depuração do programa da matriz simétrica acrescentando mais um caso de testes para uma matriz 3 por 3. Também
+Nesta aula nós finalizamos a depuração do programa da matriz simétrica acrescentando mais um caso de [testes para uma matriz 3 por 3](https://github.com/Geofisicando/C-orientado-a-testes/blob/f6d479d2a1dcc7e678802b17914b065bcb25f998/exemplos/matrizSimetrica/final/test_matriz.c#L51). Também
 condicionamos as mensagens de logging das funções acessa e atribui à definição da macro LOGGING na [linha 18 de matriz.c](https://github.com/Geofisicando/C-orientado-a-testes/blob/5d8adb8042c14bcadffbbcd6e6097bc399542967/exemplos/matrizSimetrica/final/matriz.c#L18). Para exibir as mensagens de logging
 basta descomentar esta linha.
 
