@@ -1,6 +1,7 @@
 # Aula 18 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 2)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+[:tv: Assistir aula](https://youtu.be/KUJ4G8PmRUQ)
 
 Nesta aula nós configuramos o Makefile e a suíte de testes para o Unity framework de testes unitários em C para dar início aos nossos
 testes da depuração do programa da matriz simétrica. O primeiro passo é compreender o problema da  matriz simétrica.
