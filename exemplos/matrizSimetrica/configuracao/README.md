@@ -18,3 +18,17 @@ Aj,i. Ou seja, os elementos acima e abaixo da diagonal principal estão espelhad
 
 Na matriz acima, apesar dos elementos da diagonal principal serem diferente {1,7,4}, os elementos acima e abaixo da diagonal principal estão "espelhados"
 e a matriz é quadrada, tem o número de linhas igual ao número de colunas. Por isso, esta matriz é simétrica.
+
+A partir da compreensão do problema, nós estabelecemos o caso mais simples de uma matriz simétrica 2 por 2 como nosso promeiro caso de teste
+para as funções acessa e atribui. A matriz encontra-se a seguir:
+
+```
+1 2
+2 1
+```
+
+Para testar as funções basta atribuir os elementos da matriz acima à uma matriz simétrica criada com a função 'cria' e tentar acessar
+o elemento correpondente com a função 'acessa'. O valor retornado pela função deverá corresponder ao elemento da matriz acessado se a função
+estiver correta.
+
+## Exemplo de uso
