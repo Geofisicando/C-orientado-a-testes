@@ -45,7 +45,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 
    - [#15 - Como utilizar cores no terminal, em saídas de programas em C e no Unity](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/unity_output_color/README.md#aula-15---como-utilizar-cores-no-terminal-em-sa%C3%ADdas-de-programas-em-c-e-no-unity)
    - [#16 - Variáveis booleanas e implementação da interface stdbool em c](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/stdbool#aula-16---vari%C3%A1veis-booleanas-e-implementa%C3%A7%C3%A3o-da-interface-stdbool-em-c)
-   - #17 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 1)
+   - [#17 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/matrizSimetrica/modularizacao#aula-17---como-fazer-depura%C3%A7%C3%A3o-debug-do-c%C3%B3digo-matriz-sim%C3%A9trica-parte-1)
    - #18 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 2)
    - #19 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 3)
    - #20 - Como fazer depuração (Debug) do código: Matriz simétrica (Parte 4)
