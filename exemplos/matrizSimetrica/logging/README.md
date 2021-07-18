@@ -16,6 +16,13 @@ struct mat {
 typedef struct mat MatrizSimetrica;
 ```
 
+Para fazer o logging nas funções acessa e atribui e exibir os índices i, j e k nas funções utilizamos a função printf e a macro do pré processador
+\_\_FUNCTION\_\_ que é substituída pelo nome da função no pré processamento. Assim, podemos saber qual função exibiu o logging na tela do terminal.
+
+```c
+printf("%s: i=%d j=%d k=%d\n",__FUNCTION__,i,j,k);
+```
+
 ## Exemplo de uso
 
 Você pode compilar e rodar este exemplo de uso com o programa 'make'. Para compilar e rodar o programa principal utilize o comando a seguir:
