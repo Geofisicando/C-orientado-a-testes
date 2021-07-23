@@ -35,6 +35,26 @@ void atribui (MatrizSimetrica* mat, int i, int j, float v) {
 
 E após a refatoração, observe como os nomes de variáveis estão mais claros e trazem contexto para o código:
 
+```c
+void atribui (MatrizSimetrica* mat, int linha, int coluna, float f) {
+    int indice;
+    if (linha<0 || linha>=mat->dim || coluna<0 || coluna>=mat->dim) {
+        printf("\nAtribuicao invalida.\n");
+        exit(1);
+    }
+    
+    if (linha>=coluna)
+        indice = linha*(linha+1)/2 + coluna;
+    else
+        indice = coluna*(coluna+1)/2 + linha;
+   
+#ifdef LOGGING 
+    printf("%s: i=%d j=%d k=%d\n",__FUNCTION__,linha,coluna,indice);
+#endif
+    mat->v[indice] = f;
+}
+```
+
 ### Exemplo de uso
 
 Você pode compilar e rodar este exemplo de uso com o programa 'make'. Para compilar e rodar o programa principal utilize o comando a seguir:
