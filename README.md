@@ -57,7 +57,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#23 - Refatoração do código da matriz simétrica (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/matrizSimetricaRefatoracao/intro#aula-23---refatora%C3%A7%C3%A3o-do-c%C3%B3digo-da-matriz-sim%C3%A9trica-parte-1)
    - [#24 - Refatoração do código da matriz simétrica (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/matrizSimetricaRefatoracao/codigo_duplicado#aula-24---refatora%C3%A7%C3%A3o-do-c%C3%B3digo-da-matriz-sim%C3%A9trica-parte-2)
    - [#25 - Refatoração do código da matriz simétrica (Parte 3)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/matrizSimetricaRefatoracao/codigo_duplicado#aula-25---refatora%C3%A7%C3%A3o-do-c%C3%B3digo-da-matriz-sim%C3%A9trica-parte-3)
-   - #26 - Refatoração do código da matriz simétrica (Parte 4)
+   - [#26 - Refatoração do código da matriz simétrica (Parte 4)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/matrizSimetricaRefatoracao/final#aula-26---refatora%C3%A7%C3%A3o-do-c%C3%B3digo-da-matriz-sim%C3%A9trica-parte-4)
    - [#27 - As macros assert e NDEBUG da biblioteca assert.h](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/assert_ndebug#aula-27---as-macros-assert-e-ndebug-da-biblioteca-asserth)
 
 ### Depuração profissional com o GDB
