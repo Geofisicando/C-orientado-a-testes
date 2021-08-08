@@ -8,7 +8,14 @@ Nesta aula nós finalizamos a refatoração do código da matriz simétrica. A �
 
 * A leitura do código se torna mais intuitiva desta maneira, podemos passar ao leitor o que será feita com essa variável ou a finalidade para que foi criada. Claro que quantidade não é sinal de qualidade, então procure minimizar os nomes o quanto puder e, durante o desenvolvimento, sempre pensar em nomes melhores para atribuir aos elementos para gerar maior clareza. Quando pensamos em expressividade através dos nomes podemos ser levados a alguns erros que ocorrem apenas pela perspectiva do leitor, então a próxima recomendação é sobre informações transmitidas de forma errada.
 
-Com isso, finalizamos a refatoração da lista de problemas no código da matriz simétrica apresentada na [Aula 23](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/matrizSimetricaRefatoracao/intro#aula-23---refatora%C3%A7%C3%A3o-do-c%C3%B3digo-da-matriz-sim%C3%A9trica-parte-1):
+Com isso, finalizamos a refatoração da lista de problemas no código da matriz simétrica apresentada na [Aula 23](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/matrizSimetricaRefatoracao/intro#aula-23---refatora%C3%A7%C3%A3o-do-c%C3%B3digo-da-matriz-sim%C3%A9trica-parte-1). Veja o antes da refatoração:
+
+- Nomes de função não são claros
+- Nomes de variáveis não são claros
+- Comentários confusos
+- Código duplicado
+
+Depois da refatoração:
 
 - Nomes de função <s>não</s> são claros
 - Nomes de variáveis <s>não</s> são claros
