@@ -52,9 +52,9 @@ Nesta aula nós removemos totalmente o código duplicado das funções 'acessa' 
 
 Deste modo, as funções 'acessa' e 'atribui' funcionam como _funções wrapper_ (empacotadoras) das funções 'verificaLinhaColunaValidas' e 'retornaIndiceVetor'. Podemos elencar algumas vantagens deste tipo de estratégia de implementação:
 
-* Abstração: As funções 'verificaLinhaColunaValidas' e 'retornaIndiceVetor' podem ser alteradas e aprimoradas sem que isto altere a implementação e funcionamento das funções 'acessa' e 'atribui'. Podemos acrescentar funcionalidades às funções e fazer a manutenção em apenas uma parte do código.
-* Reutilização: O código das funções pode ser reutilizado por outras funções e pelo programa principal sem a necessidade de modificação das funções chamadoras.
-* Legibilidade: Os blocos if em sequência dificultam a leitura do código. A leitura das chamadas de função com nomes claros sobre oque a função faz torna a leitura do código muito mais simples.
+* **Abstração:** As funções 'verificaLinhaColunaValidas' e 'retornaIndiceVetor' podem ser alteradas e aprimoradas sem que isto altere a implementação e funcionamento das funções 'acessa' e 'atribui'. Podemos acrescentar funcionalidades às funções e fazer a manutenção em apenas uma parte do código.
+* **Reutilização:** O código das funções pode ser reutilizado por outras funções e pelo programa principal sem a necessidade de modificação das funções chamadoras.
+* **Legibilidade:** Os blocos if em sequência dificultam a leitura do código. A leitura das chamadas de função com nomes claros sobre oque a função faz torna a leitura do código muito mais simples.
 
 ### Exemplo de uso
 
