@@ -121,3 +121,9 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 
 - [#70 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/bibliotecas_estaticas/README.md#aula-70---como-criar-bibliotecas-est%C3%A1ticas-e-din%C3%A2micas-em-c-parte-1)
 - [#71 - Como criar bibliotecas estáticas e dinâmicas em C (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/bibliotecas_dinamicas/README.md#aula-71---como-criar-bibliotecas-est%C3%A1ticas-e-din%C3%A2micas-em-c-parte-2)
+
+### Chamadas de sistema no Linux
+
+- #72 - Oque são as chamadas de sistema (syscalls) no Linux? Como criar processos
+- #73 - Criar processos no Linux, a chamada de sistema fork
+- #74 - As chamadas de sistema wait e exec no Linux
