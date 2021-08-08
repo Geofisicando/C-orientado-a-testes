@@ -48,7 +48,13 @@ void atribui (MatrizSimetrica* mat, int linha, int coluna, float f) {
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós removemos totalmente o código duplicado das funções 'acessa' e 'atribui' no nosso exemplo de implementação do código da matriz simétrica abstraindo o código duplicado em duas funções, [verificaLinhaColunaValidas](https://github.com/Geofisicando/C-orientado-a-testes/blob/d02a50391b14e2d51f11d10f6818fa58ecfc6ee4/exemplos/matrizSimetricaRefatoracao/codigo_duplicado/matriz.c#L32) e [retornaIndiceVetor](https://github.com/Geofisicando/C-orientado-a-testes/blob/d02a50391b14e2d51f11d10f6818fa58ecfc6ee4/exemplos/matrizSimetricaRefatoracao/codigo_duplicado/matriz.c#L41). Assim não precisamos repetir os blocos if em cada uma das funções para acessar os elementos da matriz simétrica ou obter o índice do vetor, basta realizar a chamada à função correspondente. Isto torna a leitura do código e a manutenção mais simples.
+Nesta aula nós removemos totalmente o código duplicado das funções 'acessa' e 'atribui' no nosso exemplo de implementação do código da matriz simétrica abstraindo o código duplicado em duas funções, [verificaLinhaColunaValidas](https://github.com/Geofisicando/C-orientado-a-testes/blob/d02a50391b14e2d51f11d10f6818fa58ecfc6ee4/exemplos/matrizSimetricaRefatoracao/codigo_duplicado/matriz.c#L32) e [retornaIndiceVetor](https://github.com/Geofisicando/C-orientado-a-testes/blob/d02a50391b14e2d51f11d10f6818fa58ecfc6ee4/exemplos/matrizSimetricaRefatoracao/codigo_duplicado/matriz.c#L41) dando continuidade a [Aula 24](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/matrizSimetricaRefatoracao/codigo_duplicado#aula-24---refatora%C3%A7%C3%A3o-do-c%C3%B3digo-da-matriz-sim%C3%A9trica-parte-2). Assim, não precisamos mais repetir os blocos if em cada uma das funções para acessar os elementos da matriz simétrica ou obter o índice do vetor, basta realizar a chamada à função correspondente. Isto torna a leitura do código e a manutenção mais simples.
+
+Deste modo, as funções 'acessa' e 'atribui' funcionam como _funções wrapper_ (empacotadoras) das funções 'verificaLinhaColunaValidas' e 'retornaIndiceVetor'. Podemos elencar algumas vantagens deste tipo de estratégia de implementação:
+
+* Abstração: As funções 'verificaLinhaColunaValidas' e 'retornaIndiceVetor' podem ser alteradas e aprimoradas sem que isto altere a implementação e funcionamento das funções 'acessa' e 'atribui'. Podemos acrescentar funcionalidades às funções e fazer a manutenção em apenas uma parte do código.
+* Reutilização: O código das funções pode ser reutilizado por outras funções e pelo programa principal sem a necessidade de modificação das funções chamadoras.
+* Legibilidade: Os blocos if em sequência dificultam a leitura do código. A leitura das chamadas de função com nomes claros sobre oque a função faz torna a leitura do código muito mais simples.
 
 ### Exemplo de uso
 
