@@ -10,11 +10,22 @@ Nesta aula nós aprendemos a utilizar os comandos básicos do GDB para realizar 
 
 * **next:** Executar a próxima linha do código.
 
-* **print:** Imprimir ou setar valor de variável.
+* **print:** Imprimir ou setar valor de variável. Exemplo, para imprimir valor da variável f1 e depois setar o valor de f2 igual a 10:
 
-* **Break:** Criar ponto de parada (breakpoint).
+```
+print f1
+print f2=10
+```
 
-* **Quit:** Sair do GDB.
+* **break:** Criar ponto de parada (breakpoint). Exemplo, criar ponto de parada na linha 12:
+
+```
+break 12
+```
+
+* **quit:** Sair do GDB.
+
+O GDB permite abreviar os comandos print (p), break (b), next (n) e continue (c), para simplificar a digitação dos comandos e se o usuário apertar a tecla ENTER sem ter especificado nenhum comando no console do GDB, o GDB, por padrão, irá executar o último comando executado anteriormente.
 
 ### Exemplo de uso
 
