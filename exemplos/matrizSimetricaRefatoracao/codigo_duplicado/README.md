@@ -26,6 +26,24 @@ void atribui (MatrizSimetrica* mat, int linha, int coluna, float f) {
 }
 ```
 
+Nós abstraímos estes blocos if em duas funções, 'verificaLinhaColunaValidas' e 'retornaIndiceVetor'. Assim o código da função 'atribui' fica bem mais simples de ser lido e entendido.
+
+```c
+void atribui (MatrizSimetrica* mat, int linha, int coluna, float f) {
+
+	int indice;
+
+	verificaLinhaColunaValidas(mat->dim,linha,coluna);
+
+	indice = retornaIndiceVetor(linha,coluna);
+  
+#ifdef LOGGING 
+	printf("%s: i=%d j=%d k=%d\n",__FUNCTION__,linha,coluna,indice);
+#endif
+	mat->v[indice] = f;
+}
+ ```
+
 # Aula 25 - Refatoração do código da matriz simétrica (Parte 3)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
