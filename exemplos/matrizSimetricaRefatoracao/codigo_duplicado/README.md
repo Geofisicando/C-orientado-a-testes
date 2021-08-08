@@ -48,7 +48,7 @@ void atribui (MatrizSimetrica* mat, int linha, int coluna, float f) {
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós removemos totalmente o código duplicado das funções 'acessa' e 'atribui' no nosso exemplo de implementação do código da matriz simétrica abstraindo o código duplicado em duas funções, 'verificaLinhaColunaValidas' e 'retornaIndiceVetor'. Assim não precisamos repetir os blocos if em cada uma das funções para acessar os elementos da matriz simétrica ou obter o índice do vetor, basta realizar a chamada à função correspondente. Isto torna a leitura do código e a manutenção mais simples.
+Nesta aula nós removemos totalmente o código duplicado das funções 'acessa' e 'atribui' no nosso exemplo de implementação do código da matriz simétrica abstraindo o código duplicado em duas funções, [verificaLinhaColunaValidas](https://github.com/Geofisicando/C-orientado-a-testes/blob/d02a50391b14e2d51f11d10f6818fa58ecfc6ee4/exemplos/matrizSimetricaRefatoracao/codigo_duplicado/matriz.c#L32) e [retornaIndiceVetor](https://github.com/Geofisicando/C-orientado-a-testes/blob/d02a50391b14e2d51f11d10f6818fa58ecfc6ee4/exemplos/matrizSimetricaRefatoracao/codigo_duplicado/matriz.c#L41). Assim não precisamos repetir os blocos if em cada uma das funções para acessar os elementos da matriz simétrica ou obter o índice do vetor, basta realizar a chamada à função correspondente. Isto torna a leitura do código e a manutenção mais simples.
 
 ### Exemplo de uso
 
