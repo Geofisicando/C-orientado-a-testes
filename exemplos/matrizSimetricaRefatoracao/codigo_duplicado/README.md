@@ -26,7 +26,7 @@ void atribui (MatrizSimetrica* mat, int linha, int coluna, float f) {
 }
 ```
 
-Nós abstraímos estes blocos if em duas funções, 'verificaLinhaColunaValidas' e 'retornaIndiceVetor'. Assim o código da função 'atribui' fica bem mais simples de ser lido e entendido.
+Nós abstraímos estes blocos if em duas funções, [verificaLinhaColunaValidas](https://github.com/Geofisicando/C-orientado-a-testes/blob/d02a50391b14e2d51f11d10f6818fa58ecfc6ee4/exemplos/matrizSimetricaRefatoracao/codigo_duplicado/matriz.c#L32) e [retornaIndiceVetor](https://github.com/Geofisicando/C-orientado-a-testes/blob/d02a50391b14e2d51f11d10f6818fa58ecfc6ee4/exemplos/matrizSimetricaRefatoracao/codigo_duplicado/matriz.c#L41). Assim o código da função 'atribui' fica bem mais simples de ser lido e entendido.
 
 ```c
 void atribui (MatrizSimetrica* mat, int linha, int coluna, float f) {
