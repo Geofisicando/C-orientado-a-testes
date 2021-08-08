@@ -8,3 +8,16 @@ Nesta aula nós finalizamos a refatoração do código da matriz simétrica. A �
 
 * A leitura do código se torna mais intuitiva desta maneira, podemos passar ao leitor o que será feita com essa variável ou a finalidade para que foi criada. Claro que quantidade não é sinal de qualidade, então procure minimizar os nomes o quanto puder e, durante o desenvolvimento, sempre pensar em nomes melhores para atribuir aos elementos para gerar maior clareza. Quando pensamos em expressividade através dos nomes podemos ser levados a alguns erros que ocorrem apenas pela perspectiva do leitor, então a próxima recomendação é sobre informações transmitidas de forma errada.
  
+### Exemplo de uso
+
+Você pode compilar e rodar este exemplo de uso com o programa 'make'. Para compilar e rodar o programa principal utilize o comando a seguir:
+
+```sh
+make
+```
+
+Para compilar e rodar os testes utilize o comando a seguir:
+
+```sh
+make test
+```
