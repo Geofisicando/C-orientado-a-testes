@@ -6,7 +6,7 @@ Nesta aula nós aprendemos a utilizar os comandos básicos do GDB para realizar 
 
 * **run:** Executar o código do início ao fim ou até um ponto de parada (breakpoint).
 
-* **start:** Executar o código fonte colocando um ponto de parada (breakpoint) no início da função main.
+* **start:** Executar o código fonte do início colocando um ponto de parada (breakpoint) no início da função main.
 
 * **next:** Executar a próxima linha do código.
 
