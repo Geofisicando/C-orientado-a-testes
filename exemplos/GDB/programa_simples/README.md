@@ -1,4 +1,4 @@
-# Aula 72 - Oque são as chamadas de sistema (syscalls) no Linux? Como criar processos
+# Aula 30 - Depurar um programa passo a passo com breakpoints do GDB
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
