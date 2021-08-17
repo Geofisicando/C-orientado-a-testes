@@ -4,7 +4,22 @@
 
 Nesta aula nós refizemos o exemplo da
 [Aula 73](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/syscalls/fork#aula-73---criar-processos-no-linux-a-chamada-de-sistema-fork)
-utilizando as chamadas de sistema wait e exec.
+utilizando as chamadas de sistema wait e exec. Após a chamada de sistema fork, os processos Pai e Filho continuam a execução de maneira independente (são
+dois processos diferentes) e encerram independentemente. Para fazer o processo Pai esperar o processo Filho fazemos a chamada de sistema _wait_ com a função
+wait(). A forma mais simples de fazer esta chamada de sistema é passar o parâmetros NULL, como a seguir:
+
+```c
+wait(NULL);
+```
+
+O código do processo Filho foi alterado para fazer a chamada de sistema _exec_. Esta chamada de sistema cria um novo processo que irá substituir o processo
+chamador. Veja a representação esquemática abaixo:
+
+<img src="https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/syscalls/wait_exec/wait%20exec.gif" width=800>
+
+É importante deixar clara a diferença entre a chamada de sistema exec e a chamada de sistema fork.
+Pois, fork cria uma cópia do processo chamador que irá executar de maneira independente; e exec irá criar um novo processo que irá substituir o processo
+chamador.
 
 ## Exemplo de uso
 
