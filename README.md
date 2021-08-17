@@ -125,5 +125,5 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 ### Chamadas de sistema no Linux
 
 - [#72 - Oque são as chamadas de sistema (syscalls) no Linux? Como criar processos](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/syscalls/intro#aula-72---oque-s%C3%A3o-as-chamadas-de-sistema-syscalls-no-linux-como-criar-processos)
-- #73 - Criar processos no Linux, a chamada de sistema fork
+- [#73 - Criar processos no Linux, a chamada de sistema fork](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/syscalls/fork#aula-73---criar-processos-no-linux-a-chamada-de-sistema-fork)
 - #74 - As chamadas de sistema wait e exec no Linux
