@@ -19,7 +19,14 @@ chamador. Veja a representação esquemática abaixo:
 
 É importante deixar clara a diferença entre a chamada de sistema exec e a chamada de sistema fork.
 Pois, fork cria uma cópia do processo chamador que irá executar de maneira independente; e exec irá criar um novo processo que irá substituir o processo
-chamador.
+chamador. No exemplo de uso desta aula nós fizemos a chamada de sistema para executar um comando echo no terminal do shell:
+
+```c
+execl("/bin/echo","echo","Olá galera do canal!",NULL);
+```
+
+O primeiro parâmetro é o binário a ser executado e os parâmetros subsequentes são  o comando e os parâmetros do comando a ser executado no terminal. O último
+parâmetro passado, NULL, encerra a lista de parâmetros.
 
 ## Exemplo de uso
 
