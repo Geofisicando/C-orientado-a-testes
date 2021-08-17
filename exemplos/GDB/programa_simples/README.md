@@ -1,3 +1,8 @@
+# Aula 30 - Depurar um programa passo a passo com breakpoints do GDB
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+
 #### Programa simples para estudar os comandos do GDB
 
 Para instalar o GDB utilize o comando:
