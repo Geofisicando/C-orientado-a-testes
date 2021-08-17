@@ -26,3 +26,24 @@ Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguint
 ```sh
 make
 ```
+
+A saída esperada do comando é a seguinte:
+
+```
+gcc -g exemplo.c -o exemplo.x
+./exemplo.x
+Estou no processo pai PID=7849
+Estou no processo filho PID=7850
+```
+
+O processo Filho irá executar por 5 segundos e irá exibir a seguinte mensagem:
+
+```
+Filho encerrou...
+```
+
+Daí o processo Pai irá encerrar a sua execução:
+
+```
+Pai encerrou...
+```
