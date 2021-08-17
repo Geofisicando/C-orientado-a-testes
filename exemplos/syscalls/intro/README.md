@@ -14,6 +14,8 @@ Dentre as chamadas de sistema existentes no Linux, uma das mais importantes é a
 Com esta chamada de sistema, o processo chamador (processo Pai), pode solicitar ao SO que crie uma cópia dele.
 Esta cópia do processo chamador será um novo processo (processo Filho), com um novo espaço de endereços.
 
+<img src="https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/syscalls/intro/fork.gif" width=800>
+
 As duas cópias seguem a sua execução de maneira independente, pois são dois processos diferentes e
 com espaços de memória diferentes. A compreensão do funcionamento da chamada de sistema fork é vital
 para entender como os processos são criados no Linux.
