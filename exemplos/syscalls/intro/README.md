@@ -5,6 +5,8 @@
 Nesta aula nós aprendemos oque são as chamadas de sistema (syscalls) no Linux e também
 entendemos como o Linux cria novos processos a partir da chamada de sistema fork.
 
+## Chamadas de sistema (syscalls)
+
 Uma _chamada de sistema_ é uma rotina oferecida pelo Sistema Operacional (SO)
 às aplicações de usuário para que elas possam solicitar recursos. Um _processo_ (programa em execução)
 não pode interagir diretamente com os recursos que o SO controla, por isso as chamadas de sistema oferecem
@@ -18,6 +20,8 @@ não precisa de privilégios especiais para ser executada e não há necessidade
 [(Guia Linux)](https://guialinux.uniriotec.br/chamadas-de-sistema/).
 
 <img src="https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/syscalls/intro/chamadas.png" width=800>
+
+## Chamada de sistema fork
 
 Dentre as chamadas de sistema existentes no Linux, uma das mais importantes é a chamada de sistema _fork_.
 Com esta chamada de sistema, o processo chamador (processo Pai), pode solicitar ao SO que crie uma cópia dele.
