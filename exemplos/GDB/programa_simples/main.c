@@ -1,20 +1,20 @@
+/*
+* main.c (C)
+* 
+* Objetivo: Programa simples para testar os comandos do GDB.
+* 
+* Site: https://dirack.github.io
+* 
+* Versão 1.0
+* 
+* Programador: Rodolfo A C Neves (Dirack) 17/08/2021
+* 
+* Email: rodolfo_profissional@hotmail.com
+* 
+* Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
+*/
+
 #include <stdio.h>
-
-float soma(float f1, float f2){
-	return f1+f2;
-}
-
-float sub(float f1, float f2){
-	return f1-f2;
-}
-
-float mul(float f1, float f2){
-	return f1*f2;
-}
-
-float div(float f1, float f2){
-	return f1/f2;
-}
 
 int main(void){
 
@@ -25,7 +25,7 @@ int main(void){
 
 	f1 = 1.0;
 	f2 = 2.0;
-	f3 = soma(f1,f2);
+	f3 = f1+f2;
 
 	printf("A soma de f1+f2 é %f\n",f3);
 
