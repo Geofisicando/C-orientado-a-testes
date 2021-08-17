@@ -15,7 +15,7 @@ wait(NULL);
 O código do processo Filho foi alterado para fazer a chamada de sistema _exec_. Esta chamada de sistema cria um novo processo que irá substituir o processo
 chamador. Veja a representação esquemática abaixo:
 
-<img src="https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/syscalls/wait_exec/wait%20exec.gif" width=800>
+<img src="https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/syscalls/wait_exec/wait_exec.gif" width=800>
 
 É importante deixar clara a diferença entre a chamada de sistema exec e a chamada de sistema fork.
 Pois, fork cria uma cópia do processo chamador que irá executar de maneira independente; e exec irá criar um novo processo que irá substituir o processo
