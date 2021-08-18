@@ -65,7 +65,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#28 - Como depurar um programa em C de maneira profissional? O depurador GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/intro#aula-28---como-depurar-um-programa-em-c-de-maneira-profissional-o-depurador-gdb)
    - [#29 - Comandos básicos do GDB: run, start, next, print e break](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/comandos_basicos#aula-29---comandos-b%C3%A1sicos-do-gdb-run-start-next-print-e-break)
    - [#30 - Depurar um programa passo a passo com breakpoints do GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/programa_simples#aula-30---depurar-um-programa-passo-a-passo-com-breakpoints-do-gdb)
-   - #31 - Depuração de funções de bibliotecas em C com o comando step do GDB
+   - [#31 - Depuração de funções de bibliotecas em C com o comando step do GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/bug_funcao#aula-31---depura%C3%A7%C3%A3o-de-fun%C3%A7%C3%B5es-de-bibliotecas-em-c-com-o-comando-step-do-gdb)
    - #32 - Exercício de depuração com o GDB
    - #33 - O modo de depuração Text User Interface (TUI) do GDB
    - #34 - Exibir o código fonte no terminal do GDB
