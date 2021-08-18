@@ -1,3 +1,7 @@
+# Aula 31 - Depuração de funções de bibliotecas em C com o comando step do GDB
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
 #### Programa para estudar depuração com GDB
 
 A compilação deste programa deverá ser feita com a opção '-g'
