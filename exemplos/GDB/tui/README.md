@@ -17,7 +17,7 @@ habilitado e b- que está desabilitado).
 
 * **Ctrl+x+a:** Entrar/Sair do modo TUI.
 
-* **layout src:** Ao digitar 'layout src' no console do terminal, o modo TUI é ativado.
+* **layout src:** Ao digitar 'layout src' no console do terminal do GDB, o modo TUI é ativado.
 
 ### Exemplo de uso
 
