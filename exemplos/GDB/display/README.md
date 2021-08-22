@@ -2,28 +2,13 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós aprendemos a utilizar o comando list no GDB para exibir o código fonte durante a depuração. A seguir, um resumo das principais opções do
-comando list:
+Nesta aula nós aprendemos a utilizar o comando display para visualizar e monitorar os valores das variáveis no GDB durante a depuração. A seguir, um resumo das principais opções do comando display:
 
-* **list:** Exibe o n linhas do código fonte no contexto da linha atual (n é definido em listsize). A versão abreviada deste comando é **l**.
+* **display i:** Monitorar a variável i.
 
-* **list 5:** Exibir n linhas no contexto da linha 5.
+* **undisplay 1:** Desativar o display da primeira variável monitorada.
 
-* **list soma:** Exibir n linhas do código fonte da função soma.
-
-* **list 3,5:** Exibir da linha 3 a 5.
-
-* **list 3,:** Exibir n linhas a partir da linha 3.
-
-* **list ,12:** Exibir n linhas até a linha 12.
-
-Para configurar o número de linhas que o list exibe por padrão, utilize os comandos a seguir:
-
-* **show listsize:** Mostrar quantas linhas o list exibe por padrão.
-
-* **set listsize 5:** Configurar o número de linhas que o list exibe por padrão para 5 linhas.
-
-* **set listsize unlimited:** Configurar o número de linhas que o list exibe por padrão para sem limites de linhas (o list irá exibir até o final do arquivo).
+* **undisplay:** Desativar o display de todas as variáveis.
 
 ### Exemplo de uso
 
