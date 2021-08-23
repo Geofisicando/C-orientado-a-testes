@@ -29,3 +29,10 @@ Daí, para carregar o binário executável no GDB, basta utilizar o comando a se
 ```sh
 gdb main.x
 ```
+
+Você também poderá utilizar o arquivo 'gdb_script' para carregar e rodar automaticamente os comandos de logging. Este arquivo é um script do GDB
+(veja a [Aula 38](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/gdb_scripts#aula-38---depura%C3%A7%C3%A3o-automatizada-com-gdb-scripts)) que automatiza a execução de comandos com o GDB. Após a compilação de 'main.x', basta rodar o comando a seguir:
+
+```sh
+gdb -x gdb_script main.x
+```
