@@ -36,3 +36,5 @@ Você também poderá utilizar o arquivo 'gdb_script' para carregar e rodar auto
 ```sh
 gdb -x gdb_script main.x
 ```
+
+O arquivo de logging 'file.txt' será gerado automaticamente.
