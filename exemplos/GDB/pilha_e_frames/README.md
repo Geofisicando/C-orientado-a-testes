@@ -2,13 +2,13 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós aprendemos a utilizar o comando display para visualizar e monitorar os valores das variáveis no GDB durante a depuração. A seguir, um resumo das principais opções do comando display:
+Nesta aula nós aprendemos a utilizar o comando backtrace para visualizar a pilha de funções e o comando frame para nos movimentarmos entre os frames no GDB durante a depuração. A seguir, um resumo das principais opções dos comandos:
 
-* **display i:** Monitorar a variável i.
+* **info locals:** Exibir as variáveis no escopo da função.
 
-* **undisplay 1:** Desativar o display da primeira variável monitorada.
+* **backtrace:** Exibir a pilha de funções no GDB. A versão abreviada deste comando é **bt**.
 
-* **undisplay:** Desativar o display de todas as variáveis.
+* **frame 1:** Mover para o frame 1 da pilha de funções.
 
 ### Exemplo de uso
 
