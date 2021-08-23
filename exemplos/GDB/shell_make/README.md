@@ -2,13 +2,13 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós aprendemos a utilizar o comando backtrace para visualizar a pilha de funções e o comando frame para nos movimentarmos entre os frames no GDB durante a depuração. A seguir, um resumo das principais opções dos comandos:
+Nesta aula nós aprendemos a executar comandos do Shell, executar um Makefile  chamando 'make' e a chamar funções definidas no código fonte com o comando call, ambos no terminal do GDB. A seguir, um resumo das principais opções dos comandos:
 
-* **info locals:** Exibir as variáveis no escopo da função.
+* **shell ls:** Executar o comando ls do shell a partir do console do GDB.
 
-* **backtrace:** Exibir a pilha de funções no GDB. A versão abreviada deste comando é **bt**.
+* **make:** Executar Makefile na pasta atual a partir do console do GDB.
 
-* **frame 1:** Mover para o frame 1 da pilha de funções.
+* **call soma(1,1):** Chamar a função soma a partir do terminal do GDB. Esta função é definida no código fonte e a chamada é realizada passando parâmetros à função.
 
 ### Exemplo de uso
 
