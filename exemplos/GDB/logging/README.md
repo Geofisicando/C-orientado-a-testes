@@ -2,15 +2,19 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós aprendemos a utilizar os scripts do GDB para automatizar a depuração de programas escritos em linguagem C com o GDB. A seguir, um resumo das principais opções dos comandos vistos na aula:
+Nesta aula nós aprendemos a configurar e automatizar o logging com o GDB. A seguir, um resumo das principais opções dos comandos vistos na aula:
 
-* **gdb main.x -q:** Ao digitar este comando no terminal do Shell, este irá carregar o programa 'main.x' no GDB e iniciar a depuração no GDB sem exibir a mensagem inicial (flag -q).
+* **show logging:** Ao digitar este comando no terminal do Shell, este irá carregar o programa 'main.x' no GDB e iniciar a depuração no GDB sem exibir a mensagem inicial (flag -q).
 
-* **source gdb_script:** Ao digitar este comando no console do GDB, ele irá carregar os comandos do arquivo gdb_script no GDB.
+* **set logging file file.txt:** Ao digitar este comando no console do GDB, ele irá carregar os comandos do arquivo gdb_script no GDB.
 
-* **gdb --command=gdb_script main.x:** Ao digitar este comando no terminal do Shell, este irá carregar o programa 'main.x' no GDB e iniciar a depuração.
+* **set logging on:** Ao digitar este comando no terminal do Shell, este irá carregar o programa 'main.x' no GDB e iniciar a depuração.
 
-* **gdb -x gdb_script main.x:** Faz o mesmo que o comando anterior.
+* **set logging off:** Faz o mesmo que o comando anterior.
+
+* **echo mensagem\n:** Faz o mesmo que o comando anterior.
+
+* **set logging overwrite:** Faz o mesmo que o comando anterior.
 
 ### Exemplo de uso
 
