@@ -71,7 +71,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#34 - Exibir o código fonte no terminal do GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/list#aula-34---exibir-o-c%C3%B3digo-fonte-no-terminal-do-gdb)
    - [#35 - Monitorar variáveis no GDB com o comando display](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/display#aula-35---monitorar-vari%C3%A1veis-no-gdb-com-o-comando-display)
    - [#36 - Monitorando a pilha e os frames no GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/pilha_e_frames#aula-36---monitorando-a-pilha-e-os-frames-no-gdb)
-   - #37 - Chamar funções, executar comandos do Shell e Makefiles no GDB
+   - [#37 - Chamar funções, executar comandos do Shell e Makefiles no GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/shell_make#aula-37---chamar-fun%C3%A7%C3%B5es-executar-comandos-do-shell-e-makefiles-no-gdb)
    - #38 - Depuração automatizada com GDB scripts
    - #39 - Gerar arquivos de logging no GDB
    - #40 - Como corrigir erros de segmentação e monitorar ponteiros no GDB
