@@ -4,17 +4,17 @@
 
 Nesta aula nós aprendemos a configurar e automatizar o logging com o GDB. A seguir, um resumo das principais opções dos comandos vistos na aula:
 
-* **show logging:** Ao digitar este comando no terminal do Shell, este irá carregar o programa 'main.x' no GDB e iniciar a depuração no GDB sem exibir a mensagem inicial (flag -q).
+* **show logging:** Exibir as configurações de logging do GDB.
 
-* **set logging file file.txt:** Ao digitar este comando no console do GDB, ele irá carregar os comandos do arquivo gdb_script no GDB.
+* **set logging file file.txt:** Definir o arquivo 'file.txt' como o nome do arquivo de logging. Por padrão o GDB utiliza o nome 'gdb.txt'.
 
-* **set logging on:** Ao digitar este comando no terminal do Shell, este irá carregar o programa 'main.x' no GDB e iniciar a depuração.
+* **set logging on:** Iniciar o logging com o GDB.
 
-* **set logging off:** Faz o mesmo que o comando anterior.
+* **set logging off:** Encerrar o logging com o GDB.
 
-* **echo mensagem\n:** Faz o mesmo que o comando anterior.
+* **echo mensagem\n:** Exibir mensagem na tela do terminal do GDB ('\n' é para colocar a quebra de linha após a mensagem).
 
-* **set logging overwrite:** Faz o mesmo que o comando anterior.
+* **set logging overwrite:** Habilitar a opção para sobreescrever o arquivo de logging anterior.
 
 ### Exemplo de uso
 
