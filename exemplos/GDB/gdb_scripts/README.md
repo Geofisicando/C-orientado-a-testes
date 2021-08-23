@@ -2,13 +2,15 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós aprendemos a executar comandos do Shell, executar um Makefile  chamando 'make' e a chamar funções definidas no código fonte com o comando call, ambos no terminal do GDB. A seguir, um resumo das principais opções dos comandos:
+Nesta aula nós aprendemos a utilizar os scripts do GDB para automatizar a depuração de programas escritos em linguagem C com o GDB. A seguir, um resumo das principais opções dos comandos vistos na aula:
 
-* **shell ls:** Executar o comando ls do shell a partir do console do GDB.
+* **gdb main.x -q:** Ao digitar este comando no terminal do Shell, este irá carregar o programa 'main.x' no GDB e iniciar a depuração no GDB sem exibir a mensagem inicial (flag -q).
 
-* **make:** Executar Makefile na pasta atual a partir do console do GDB.
+* **source gdb_script:** Ao digitar este comando no console do GDB, ele irá carregar os comandos do arquivo gdb_script no GDB.
 
-* **call soma(1,1):** Chamar a função soma a partir do terminal do GDB. Esta função é definida no código fonte e a chamada é realizada passando parâmetros à função.
+* **gdb --command=gdb_script main.x:** Ao digitar este comando no terminal do Shell, este irá carregar o programa 'main.x' no GDB e iniciar a depuração.
+
+* **gdb -x gdb_script main.x:** Faz o mesmo que o comando anterior.
 
 ### Exemplo de uso
 
