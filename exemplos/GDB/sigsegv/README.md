@@ -1,3 +1,7 @@
+# Aula 40 - Como corrigir erros de segmentação e monitorar ponteiros no GDB
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
 #### Exemplo de depuração de error de segmentação com o GDB
 
 O programa 'main.c' ocasiona um erro de segmentação
