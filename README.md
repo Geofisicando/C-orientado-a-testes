@@ -74,7 +74,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#37 - Chamar funções, executar comandos do Shell e Makefiles no GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/shell_make#aula-37---chamar-fun%C3%A7%C3%B5es-executar-comandos-do-shell-e-makefiles-no-gdb)
    - [#38 - Depuração automatizada com GDB scripts](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/gdb_scripts#aula-38---depura%C3%A7%C3%A3o-automatizada-com-gdb-scripts)
    - [#39 - Gerar arquivos de logging no GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/logging#aula-39---gerar-arquivos-de-logging-no-gdb)
-   - #40 - Como corrigir erros de segmentação e monitorar ponteiros no GDB
+   - [#40 - Como corrigir erros de segmentação e monitorar ponteiros no GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/sigsegv#aula-40---como-corrigir-erros-de-segmenta%C3%A7%C3%A3o-e-monitorar-ponteiros-no-gdb)
 
 ### Exercícios sobre Pilhas em C
 
