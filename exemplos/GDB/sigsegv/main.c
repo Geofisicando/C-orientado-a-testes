@@ -23,8 +23,8 @@ int main(void){
 	int* pi;
 
 	/* Descomentar a linha abaixo para corrigir
-	o erro
-	pi = (int*) malloc(sizeof(int));*/
+	o erro de segmentação. Ou corrigir pelo GDB */
+	//pi = (int*) malloc(sizeof(int));
 	*pi = 5;
 
 	return 0;
