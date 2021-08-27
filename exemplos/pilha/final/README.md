@@ -18,7 +18,7 @@ chegar no último elemento este aponta para NULL e a função simplesmente retor
 
 ## Exemplo de uso
 
-Para compilar e rodar o exemplo de uso deste diretório com a implementação completa da pilha basta roda o comando a seguir:
+Para compilar e rodar o exemplo de uso deste diretório com a implementação completa da pilha basta rodar o comando a seguir:
 
 ```sh
 make
