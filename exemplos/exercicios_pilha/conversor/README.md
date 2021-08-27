@@ -21,6 +21,9 @@ Depois, basta organizar os valores armazenados do LSD significa Dígito Menos Si
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
+Nesta aula nós finalizamos a resolução do exercício sobre a criação de um conversor de binário em decimal utilizando a estrutura de dados pilha.
+Nós armazenamos os valores de cada divisão em um pilha e depois exibimos chamando a função print da pilha.
+
 ## Exemplo de uso
 
 Para compilar e rodar o exemplo de uso deste diretório, basta rodar o comando a seguir:
