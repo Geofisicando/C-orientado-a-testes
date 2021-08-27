@@ -79,7 +79,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 ### Exercícios sobre Pilhas em C
 
    - [#41 - Exercícios sobre Estrutura de dados Pilha](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/exercicios_pilha#aula-41---exerc%C3%ADcios-sobre-estrutura-de-dados-pilha)
-   - #42 - Exercício conversor de decimal em binário utilizando pilhas (Parte 1)
+   - [#42 - Exercício conversor de decimal em binário utilizando pilhas (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/exercicios_pilha/conversor#aula-42---exerc%C3%ADcio-conversor-de-decimal-em-bin%C3%A1rio-utilizando-pilhas-parte-1)
    - #43 - Exercício conversor de decimal em binário utilizando pilhas (Parte 2)
    - #44 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 1)
    - #45 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 2)
