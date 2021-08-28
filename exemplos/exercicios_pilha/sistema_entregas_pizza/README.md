@@ -42,21 +42,21 @@ estado da pilha de entregas:
 * Fazer o push (Empilhar) na pilha de entregas os pedidos na ordem inversa (:arrow_right: é o ponteiro para o topo da pilha):
   * Push do pedido 4:
   
- | | Pilha |
+ | Pilhas | Entregas |
  | --- | --- |
  | :arrow_right: | 4 |
   
   
   * Push do pedido 3:
 
- | | Pilha |
+ | Pilhas | Entregas |
  | --- | --- |
  :arrow_right: | 3 |
  | | 4 |
  
   * Push do pedido 2:
 
- | | Pilha |
+ | Pilhas | Entregas |
  | --- | --- |
   :arrow_right: | 2 |
  | | 3 |
@@ -64,7 +64,7 @@ estado da pilha de entregas:
  
   * Push do pedido 1:
  
- | | Pilha |
+ | Pilhas | Entregas |
  | --- | --- |
  :arrow_right: | 1 |
  | | 2 |
