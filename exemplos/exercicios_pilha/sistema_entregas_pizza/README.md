@@ -30,7 +30,8 @@ sabores[3] = "Frango com catupiry"
 
 Nesta aula nós implementamos a lógica da pilha de entregas do nosso sistema de entrega de pizzas utilizando a estrutura de dados pilha.
 Para esta implementação, basta inserir na pilha de entregas na ordem inversa dos pedidos. Ou seja, o último pedido que será o último a ser
-entregue é inserido primeiro na pilha, pois a pilha é desempilhada a partir do topo. Veja no esquema a seguir da pilha de entregas:
+entregue é inserido primeiro na pilha, pois a pilha é desempilhada a partir do topo. Veja no esquema a seguir representanto o
+estado da pilha de entregas:
 
 * Os clientes fazem os pedidos no balcão:
   * Cliente fez o pedido 1
@@ -38,14 +39,37 @@ entregue é inserido primeiro na pilha, pois a pilha é desempilhada a partir do
   * Cliente fez o pedido 3
   * Cliente fez o pedido 4
 
-* Fazer o push (Empilhar) na pilha de entregas os pedidos na ordem inversa:
+* Fazer o push (Empilhar) na pilha de entregas os pedidos na ordem inversa (:arrow_right: é o ponteiro para o topo da pilha):
+  * Push do pedido 4:
+  
+ | | Pilha |
+ | --- | --- |
+ | :arrow_right: | 4 |
+  
+  
+  * Push do pedido 3:
 
- | | Pilha | |
- | --- | --- | --- |
- :arrow_right: | 1 |
- :arrow_right: | 2 |
+ | | Pilha |
+ | --- | --- |
  :arrow_right: | 3 |
- :arrow_right: | 4 |
+ | | 4 |
+ 
+  * Push do pedido 2:
+
+ | | Pilha |
+ | --- | --- |
+  :arrow_right: | 2 |
+ | | 3 |
+ | | 4 |
+ 
+  * Push do pedido 1:
+ 
+ | | Pilha |
+ | --- | --- |
+ :arrow_right: | 1 |
+ | | 2 |
+ | | 3 |
+ | | 4 |
  
  A ordem de retirada dos pedidos da pilha será do topo para a base da pilha. Ou seja, será a ordem dos pedidos: 1, 2, 3, 4. 
 
