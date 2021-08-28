@@ -28,6 +28,27 @@ sabores[3] = "Frango com catupiry"
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
+Nesta aula nós implementamos a lógica da pilha de entregas do nosso sistema de entrega de pizzas utilizando a estrutura de dados pilha.
+Para esta implementação, basta inserir na pilha de entregas na ordem inversa dos pedidos. Ou seja, o último pedido que será o último a ser
+entregue é inserido primeiro na pilha, pois a pilha é desempilhada a partir do topo. Veja no esquema a seguir da pilha de entregas:
+
+* Os clientes fazem os pedidos no balcão:
+  * Cliente fez o pedido 1
+  * Cliente fez o pedido 2
+  * Cliente fez o pedido 3
+  * Cliente fez o pedido 4
+
+* Fazer o push (Empilhar) na pilha de entregas os pedidos na ordem inversa:
+
+ | | Pilha | |
+ | --- | --- | --- |
+ :arrow_right: | 1 |
+ :arrow_right: | 2 |
+ :arrow_right: | 3 |
+ :arrow_right: | 4 |
+ 
+ A ordem de retirada dos pedidos da pilha será do topo para a base da pilha. Ou seja, será a ordem dos pedidos: 1, 2, 3, 4. 
+
 ## Exemplo de uso
 
 Para compilar e rodar o exemplo de uso deste diretório, basta rodar o comando a seguir:
