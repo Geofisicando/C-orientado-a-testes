@@ -51,14 +51,14 @@ estado da pilha de entregas:
 
  | Pilhas | Entregas |
  | --- | --- |
- :arrow_right: | 3 |
+ | :arrow_right: | 3 |
  | | 4 |
  
   * Push do pedido 2:
 
  | Pilhas | Entregas |
  | --- | --- |
-  :arrow_right: | 2 |
+ | :arrow_right: | 2 |
  | | 3 |
  | | 4 |
  
@@ -66,7 +66,7 @@ estado da pilha de entregas:
  
  | Pilhas | Entregas |
  | --- | --- |
- :arrow_right: | 1 |
+ | :arrow_right: | 1 |
  | | 2 |
  | | 3 |
  | | 4 |
@@ -103,6 +103,63 @@ while(1){
 # Aula 47 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 4)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+Nesta aula nós aprimoramos a lógica de programação do nosso sistema de entrega de pizzas utilizando a estrutura de dados pilha. Para tanto, nós acrescentamos
+uma pilha de entregas e de pedidos. A pilha de pedidos recebe os pedidos na ordem em que são feitos e os armazena. Depois que os pedidos são finalizados,
+o sistema desempilha a pilha de pedidos na pilha de entregas: Como o desempilhar da pilha de pedidos é feito do topo para a base, na pilha de entregas,
+os pedidos são armazenados já na ordem inversa. Veja a representação esquemática a seguir:
+
+* Os clientes fizeram os pedidos no balcão:
+  * Cliente fez o pedido 1, empilhar (push) 1 na pilha de pedidos
+  * Cliente fez o pedido 2, empilhar (push) 2 na pilha de pedidos
+  * Cliente fez o pedido 3, empilhar (push) 3 na pilha de pedidos
+  * Cliente fez o pedido 4, empilhar (push) 4 na pilha de pedidos
+
+* Fazer o push (Empilhar) na pilha de entregas os pedidos na ordem inversa (:arrow_right: é o ponteiro para o topo da pilha):
+  * Estado da pilha de pedidos e da pilha de entregas após todos os pedidos serem finalizados: 
+
+| Pilhas | Pedidos |-|-| Entregas |
+| --- | --- | --- | --- | --- |
+ | :arrow_right: | 4 | | | |
+ | | 3 | | | |
+ | | 2 | | | |
+ | | 1 | | | |
+ 
+ * Desempilhar (pop) da pilha de pedidos e Empilhar (push) na pilha de entregas:
+
+| Pilhas | Pedidos |-|-| Entregas |
+| --- | --- | --- | --- | --- |
+ |  | | | | |
+ | :arrow_right: | 3 | | | |
+ | | 2 | | | |
+ | | 1 | | :arrow_right: | 1 |
+ 
+  * Desempilhar (pop) da pilha de pedidos e Empilhar (push) na pilha de entregas:
+
+| Pilhas | Pedidos |-|-| Entregas |
+| --- | --- | --- | --- | --- |
+ | | | | | |
+ | | | | | |
+ | :arrow_right: | 2 | | | 3|
+ | | 1 | | | 4 |
+ 
+  * Desempilhar (pop) da pilha de pedidos e Empilhar (push) na pilha de entregas:
+
+| Pilhas | Pedidos |-|-| Entregas |
+| --- | --- | --- | --- | --- |
+ | | | | | |
+ | | | | | 2 |
+ | | | | | 3 |
+ |:arrow_right: | 4 | | | 4 |
+ 
+  * Desempilhar (pop) da pilha de pedidos e Empilhar (push) na pilha de entregas:
+
+| Pilhas | Pedidos |-|-| Entregas |
+| --- | --- | --- | --- | --- |
+ | :arrow_right: | 1 | | | |
+ | | 2 | | | |
+ | | 3 | | | |
+ | | 4 | | | |
 
 ## Exemplo de uso
 
