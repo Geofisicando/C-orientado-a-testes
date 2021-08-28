@@ -31,3 +31,33 @@ Para compilar e rodar o exemplo de uso deste diretório, basta rodar o comando a
 ```sh
 make
 ```
+
+O programa make irá compilar e rodar os testes da pilha definidos em 'test_pilha.c' e irá compilar o sistema de entregas de pizzas já com a lista de
+símbolos do GDB para que você possa testar a implementação no terminal do GDB. Se você desejar fazer a compilação diretamente pelo terminal do shell
+utilize o seguinte comando de compilação:
+
+```sh
+gcc -g sistema.c -o sistema.x
+```
+
+Daí, para carregar o binário executável no GDB, basta utilizar o comando a seguir:
+
+```sh
+gdb main.x
+```
+
+## Teste da interface com expect
+
+Você também pode testar a interface do sistema de entrega de pizzas com o script do expect 'teste.exp' disponível neste diretório. Para
+tanto, você precisa ter o expect instalado na sua máquina. Utilize o comando a seguir para instalar o expect no Ubuntu:
+
+```sh
+sudo apt install expect
+```
+
+Você pode rodar o teste com o expect utilizando 'make expect', o make irá rodar o teste automaticamente. Ou você pode rodar diretamente no terminal
+do shell, após a compilação do arquivo 'sistema.c' para gerar o executável 'sistema.x', com o seguinte comando:
+
+```sh
+expect ./teste.exp
+```
