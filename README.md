@@ -83,8 +83,8 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#43 - Exercício conversor de decimal em binário utilizando pilhas (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/exercicios_pilha/conversor#aula-43---exerc%C3%ADcio-conversor-de-decimal-em-bin%C3%A1rio-utilizando-pilhas-parte-2)
    - [#44 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/exercicios_pilha/sistema_entregas_pizza#aula-44---exerc%C3%ADcio-sistema-de-entrega-de-pizzas-utilizando-pilhas-parte-1)
    - [#45 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/exercicios_pilha/sistema_entregas_pizza#aula-45---exerc%C3%ADcio-sistema-de-entrega-de-pizzas-utilizando-pilhas-parte-2)
-   - #46 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 3)
-   - #47 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 4)
+   - [#46 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 3)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/exercicios_pilha/sistema_entregas_pizza#aula-46---exerc%C3%ADcio-sistema-de-entrega-de-pizzas-utilizando-pilhas-parte-3)
+   - [#47 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 4)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/exercicios_pilha/sistema_entregas_pizza#aula-47---exerc%C3%ADcio-sistema-de-entrega-de-pizzas-utilizando-pilhas-parte-4)
 
 ### Básico de sinais e processos no Linux
 
