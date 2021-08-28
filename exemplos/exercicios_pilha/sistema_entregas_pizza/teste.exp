@@ -1,4 +1,20 @@
 #!/usr/bin/expect -f
+#
+# teste.exp (Script do expect)
+#
+# INSTALAÇÃO DO EXPECT NO UBUNTU: sudo apt install expect
+# 
+# Objetivo: Teste da interface do sistema de entregas.
+# 
+# Site: https://dirack.github.io
+# 
+# Versão 1.0
+# 
+# Programador: Rodolfo A C Neves (Dirack) 28/08/2021
+# 
+# Email: rodolfo_profissional@hotmail.com
+# 
+# Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
   
 spawn ./sistema.x
 
