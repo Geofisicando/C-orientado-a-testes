@@ -77,6 +77,29 @@ estado da pilha de entregas:
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
+Nesta aula nós implementamos a interface para o usuário realizar os pedidos no nosso sistema de entrega de pizzas utilizando a estrutura de dados pilha.
+Para tanto, nós exibimos o menu de sabores em looping (O usuário pode fazer um número indefinido de pedidos) e armazenamos o pedido na variável 'pedido' com
+a função scanf. Antes de inserir o pedido na pilha de pedidos, verificamos se o pedido corresponde a um pedido válido no intervalo do menu de sabores
+ou se o usuário digitou '-1' para sair do menu, então inserirmos os valores na pilha com push (empilhar).
+
+Esta implementação se dá no laço while a seguir:
+
+```c
+while(1){
+		printf("Escolha um sabor (-1 para encerrar):\n");
+		printf("0 - Portuguesa\n1 - 4 queijos\n2 - Calabresa\n3 - Frango com catupiry\n");
+		scanf("%d",&pedido);
+
+		if(pedido==-1)break;
+
+		if(pedido<0 || pedido > NUM_SABORES-1){
+			printf("Pedido inválido!\n");
+		}else{
+			push(&p,pedido);
+		}
+	}
+ ```
+
 # Aula 47 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 4)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
