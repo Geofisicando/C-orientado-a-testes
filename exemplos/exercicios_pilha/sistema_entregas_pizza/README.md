@@ -73,6 +73,14 @@ estado da pilha de entregas:
  
  A ordem de retirada dos pedidos da pilha será do topo para a base da pilha. Ou seja, será a ordem dos pedidos: 1, 2, 3, 4. 
 
+# Aula 46 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 3)
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+# Aula 47 - Exercício sistema de entrega de pizzas utilizando pilhas (Parte 4)
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
 ## Exemplo de uso
 
 Para compilar e rodar o exemplo de uso deste diretório, basta rodar o comando a seguir:
