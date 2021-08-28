@@ -109,14 +109,14 @@ uma pilha de entregas e de pedidos. A pilha de pedidos recebe os pedidos na orde
 o sistema desempilha a pilha de pedidos na pilha de entregas: Como o desempilhar da pilha de pedidos é feito do topo para a base, na pilha de entregas,
 os pedidos são armazenados já na ordem inversa. Veja a representação esquemática a seguir:
 
-* Os clientes fizeram os pedidos no balcão:
+### Os clientes fizeram os pedidos no balcão:
   * Cliente fez o pedido 1, empilhar (push) 1 na pilha de pedidos
   * Cliente fez o pedido 2, empilhar (push) 2 na pilha de pedidos
   * Cliente fez o pedido 3, empilhar (push) 3 na pilha de pedidos
   * Cliente fez o pedido 4, empilhar (push) 4 na pilha de pedidos
 
-* Fazer o push (Empilhar) na pilha de entregas os pedidos na ordem inversa (:arrow_right: é o ponteiro para o topo da pilha):
-  * Estado da pilha de pedidos e da pilha de entregas após todos os pedidos serem finalizados: 
+### Fazer o push (Empilhar) na pilha de entregas os pedidos na ordem inversa (:arrow_right: é o ponteiro para o topo da pilha):
+* Estado da pilha de pedidos e da pilha de entregas após todos os pedidos serem finalizados: 
 
 | Pilhas | Pedidos |-|-| Entregas |
 | --- | --- | --- | --- | --- |
@@ -129,10 +129,10 @@ os pedidos são armazenados já na ordem inversa. Veja a representação esquem�
 
 | Pilhas | Pedidos |-|-| Entregas |
 | --- | --- | --- | --- | --- |
- |  | | | | |
+ |  |  |  |  |  |
  | :arrow_right: | 3 | | | |
  | | 2 | | | |
- | | 1 | | :arrow_right: | 1 |
+ | | 1 | | :arrow_right: | 4 |
  
   * Desempilhar (pop) da pilha de pedidos e Empilhar (push) na pilha de entregas:
 
@@ -140,7 +140,7 @@ os pedidos são armazenados já na ordem inversa. Veja a representação esquem�
 | --- | --- | --- | --- | --- |
  | | | | | |
  | | | | | |
- | :arrow_right: | 2 | | | 3|
+ | :arrow_right: | 2 | | :arrow_right: | 3|
  | | 1 | | | 4 |
  
   * Desempilhar (pop) da pilha de pedidos e Empilhar (push) na pilha de entregas:
@@ -148,18 +148,21 @@ os pedidos são armazenados já na ordem inversa. Veja a representação esquem�
 | Pilhas | Pedidos |-|-| Entregas |
 | --- | --- | --- | --- | --- |
  | | | | | |
- | | | | | 2 |
+ | | | | :arrow_right: | 2 |
  | | | | | 3 |
- |:arrow_right: | 4 | | | 4 |
+ |:arrow_right: | 1 | | | 4 |
  
   * Desempilhar (pop) da pilha de pedidos e Empilhar (push) na pilha de entregas:
 
 | Pilhas | Pedidos |-|-| Entregas |
 | --- | --- | --- | --- | --- |
- | :arrow_right: | 1 | | | |
- | | 2 | | | |
- | | 3 | | | |
- | | 4 | | | |
+ |  |  | | :arrow_right: | 1 |
+ | |  | | | 2 |
+ | |  | | | 3 |
+ |  |  | | | 4 |
+ 
+ Assim, garantimos que a pilha de entregas sempre esteja na ordem inversa dos pedidos como requer a solução do problema. Daí basta realizar as entregas
+ desempilhando a pilha de entregas, a ordem será: 1, 2, 3, 4.
 
 ## Exemplo de uso
 
