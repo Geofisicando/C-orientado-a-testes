@@ -11,10 +11,28 @@ O funcionamento da função alloc é bastante simples, passamos dois parâmetros
 sizeof. Assim, para alocar um vetor de 5 inteiros, basta utilizar:
 
 ```c
-int* vetor;
+int *vetor;
 vetor = (int) alloc(5,sizeof(int));
 ```
 
 # Aula 60 - Criar uma função de alocação dinâmica personalizada em c (Parte 2)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+Nesta aula nós utilizamos a função de alocação dinâmica personalizada, alloc, criada na aula anterior, para criar uma função de alocação dinâmica de
+vetores de inteiros. A função intalloc é bastante simples de utilizar, para alocar um vetor de 5 inteiros basta utilizar:
+
+```c
+int *vetor;
+vetor = intalloc(5);
+```
+
+A função já irá retornar um (int*) com o espaço de memória requisitado. Assim, a alocação dinâmica de vetores de inteiros fica bem mais simples.
+
+## Exemplo de uso
+
+Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguinte comando:
+
+```sh
+make
+```
