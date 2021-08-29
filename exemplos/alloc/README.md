@@ -29,6 +29,16 @@ vetor = intalloc(5);
 
 A função já irá retornar um (int*) com o espaço de memória requisitado. Assim, a alocação dinâmica de vetores de inteiros fica bem mais simples.
 
+Da mesma forma, criamos funções semelhantes para a allocação dinâmica de vetores de float e char. Basta utilizar como no exemplo:
+
+```c
+float *vetorfloat;
+vetorfloat = floatalloc(5);
+
+char *string;
+string = charalloc(10);
+```
+
 ## Exemplo de uso
 
 Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguinte comando:
