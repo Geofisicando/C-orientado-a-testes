@@ -39,6 +39,33 @@ char *string;
 string = charalloc(10);
 ```
 
+# Aula 61 - Função de alocação dinâmica personalizada de strings em c
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+Nesta aula nós aprendemos a utilizar a função de alocação dinâmica personalizada charalloc, criada na aula anterior. A utilização de vetores de char (strings)
+em C é um pouco mais complicada que a utilização de vetores de int e float. Para inicializar a string em C iremos utilizar a função memcpy definida na
+bilbioteca 'string.h'. Primeiro faremos a alocação dinâmica da string com charalloc:
+
+```c
+char *string
+string = charalloc(20);
+```
+
+Assim, após a alocação dinâmica da string, nós copiamos o nome "Dirack" para a string utilizando memcpy e nos asseguramos que após o nome
+copiado a string contenha o '\0':
+
+```c
+memcpy(string,"Dirack",6);
+string[6]='\0';
+```
+
+Daí podemos utilizar a string na função printf:
+
+```c
+printf("Olá, meu nome é %s\n",string);
+```
+
 ## Exemplo de uso
 
 Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguinte comando:
