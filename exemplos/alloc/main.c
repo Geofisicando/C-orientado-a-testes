@@ -40,6 +40,7 @@ int main(void){
 
 	/* Inicializar vetor de char (string) */
 	memcpy(string,"Dirack",6);
+	string[6]='\0';
 
 	/* Usar os vetores */
 	printf("Meu nome é %s\n",string);
