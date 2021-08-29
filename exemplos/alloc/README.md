@@ -46,3 +46,16 @@ Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguint
 ```sh
 make
 ```
+
+O programa 'main.x' já será gerado com a lista de símbolos do GDB e você poderá carregar o programa no GDB utilizando o seguinte comando:
+
+```sh
+gdb main.x
+```
+
+Se você desejar fazer a compilação diretamente pelo terminal do shell utilize o seguinte comando de compilação
+(com a flag -g para gerar a lista de símbolos do GDB):
+
+```sh
+gcc -g main.c -o main.x
+```
