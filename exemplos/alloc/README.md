@@ -47,7 +47,7 @@ Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguint
 make
 ```
 
-O programa 'main.x' já será gerado com a lista de símbolos do GDB e você poderá carregar o programa no GDB utilizando o seguinte comando:
+O programa 'main.x' será gerado já com a lista de símbolos do GDB, e você poderá carregar o programa no GDB utilizando o seguinte comando:
 
 ```sh
 gdb main.x
