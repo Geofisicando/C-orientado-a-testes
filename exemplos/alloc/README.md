@@ -2,7 +2,7 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós criamos uma função de alocação dinâmica personalizada em lingugagem C. Primeiro, aprendemos a utilizar um novo tipo de variável
+Nesta aula nós criamos uma função de alocação dinâmica personalizada em linguagem C. Primeiro, aprendemos a utilizar um novo tipo de variável
 **size_t**:
 
 > O tipo size_t armazena o tamanho de qualquer tipo de objeto, em bytes. É um apelido para um tipo inteiro que aceita apenas valores positivos (unsigned). É o tipo retornado pelo operador sizeof
@@ -11,6 +11,7 @@ O funcionamento da função alloc é bastante simples, passamos dois parâmetros
 sizeof. Assim, para alocar um vetor de 5 inteiros, basta utilizar:
 
 ```c
+int* vetor;
 vetor = (int) alloc(5,sizeof(int));
 ```
 
