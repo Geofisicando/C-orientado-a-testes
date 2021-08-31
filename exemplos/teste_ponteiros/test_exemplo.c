@@ -26,6 +26,7 @@ void test_ponteiro_ponteiro(){
 	int *i;
 	int *j;
 
+	j = intalloc(5);
 	i = j;
 
 	TEST_ASSERT_EQUAL_PTR(i,j);
