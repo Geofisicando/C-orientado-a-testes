@@ -2,25 +2,28 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Os testes de variáveis do tipo float sofrem com o problema da precisão, pois um teste pode passar com valores próximos sendo considerados iguais.
-Então, o teste de igualdade entre números do tipo float precisa incluir um critério de precisão. Para tanto, utilizamos a asserção a seguir:
+Nesta aula nós aprendemos que os testes de variáveis do tipo ponteiro são realizados utilizando
+a macro 'TEST_ASSERT_EQUAL_PTR' para verificar se os dois ponteiros apontam
+para a mesma posição de memória. Basta utilizar:
 
 ```c
-TEST_ASSERT_FLOAT_WITHIN(0.1,2.0,2.1);
+TEST_ASSERT_EQUAL_PTR(p1,p2);
 ```
 
-O primeiro valor é a precisão a ser considerada para mais ou para menos, o segundo e terceiro valor são os números a serem testados.
+Onde p1 e p2 são dois ponteiros.
 
-Para ignorar um teste no Unity, basta incluir a seguinte asserção dentro da função de teste:
+A mesma macro pode ser utilizada para testar se um ponteiro aponta para o endereço de memória de uma variável. Para tanto, basta
+passar o ponteiro e o endereço da variável com o operador '&' para a macro do unity:
 
 ```c
-TEST_IGNORE();
+TEST_ASSERT_EQUAL_PTR(p1,&x);
 ```
 
-O teste será ignorado mesmo que seja chamado pela função main.
+Onde p1 é um ponteiro e x é uma variável.
 
-No diretório exemplo temos um exemplo de uso das asseções desta aula no arquivo 'test_exemplo.c'. Para compilar e rodar o exemplo de uso basta utilizar o
-seguinte comando dentro do diretório exemplo:
+## Exemplo de uso
+
+Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguinte comando:
 
 ```sh
 make
