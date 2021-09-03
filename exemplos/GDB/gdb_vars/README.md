@@ -35,3 +35,17 @@ Basta utilizar como no exemplo a seguir (Não precisa do ponto e vírgula no fin
 ```
 
 Retorna um int* para a variável $vetor.
+
+### Exemplo de uso
+
+Você pode compilar o programa main.c com 'make', e o binário será gerado já com a lista de símbolos do GDB, para você treinar os comandos desta aula. Se você desejar fazer a compilação diretamente pelo terminal do shell utilize o seguinte comando de compilação:
+
+```sh
+gcc -g main.c -o main.x
+```
+
+Daí, para carregar o binário executável no GDB, basta utilizar o comando a seguir:
+
+```sh
+gdb main.x
+```
