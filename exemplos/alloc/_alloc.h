@@ -61,7 +61,7 @@ char* charalloc(size_t n){
 	return ptr;
 }
 
-PESSOA pessoaalloc(size_t n){
+PESSOA* pessoaalloc(size_t n){
 	PESSOA* ptr;
 	ptr = (PESSOA*) alloc(n,sizeof(PESSOA));
 	return ptr;
