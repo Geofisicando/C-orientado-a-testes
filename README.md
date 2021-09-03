@@ -108,7 +108,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#59 - Criar uma função de alocação dinâmica personalizada em c (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-59---criar-uma-fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-em-c-parte-1)
    - [#60 - Criar uma função de alocação dinâmica personalizada em c (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-60---criar-uma-fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-em-c-parte-2)
    - [#61 - Função de alocação dinâmica personalizada de strings em c](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-61---fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-de-strings-em-c)
-   - #62 - Alocação dinâmica de vetores de structs em C
+   - [#62 - Alocação dinâmica de vetores de structs em C](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-62---aloca%C3%A7%C3%A3o-din%C3%A2mica-de-vetores-de-structs-em-c)
    - #63 - Inicialização de vetores de structs em C
    - #64 - Utilizando variáveis durante a depuração com GDB
    - [#65 - Como testar ponteiros em linguagem C utilizando o Unity](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/teste_ponteiros#aula-65---como-testar-ponteiros-em-linguagem-c-utilizando-o-unity)
