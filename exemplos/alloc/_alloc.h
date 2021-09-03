@@ -1,7 +1,7 @@
 /*
 * _alloc.h (C)
 * 
-* Objetivo: Função de alocação dinâmica personalizada em C.
+* Objetivo: Funções de alocação dinâmica personalizada em C.
 * 
 * Site: https://dirack.github.io
 * 
@@ -19,6 +19,14 @@
 
 #ifndef _ALLOC_H_
 #define _ALLOC_H_
+
+typedef struct sPessoa PESSOA;
+
+struct sPessoa{
+	char *nome;
+	int idade;
+	int cpf;
+};
 
 void* alloc(int n, size_t size){
 	void* ptr;
@@ -50,6 +58,12 @@ float* floatalloc(size_t n){
 char* charalloc(size_t n){
 	char* ptr;
 	ptr = (char*) alloc(n,sizeof(char));
+	return ptr;
+}
+
+PESSOA pessoaalloc(size_t n){
+	PESSOA* ptr;
+	ptr = (PESSOA*) alloc(n,sizeof(PESSOA));
 	return ptr;
 }
 
