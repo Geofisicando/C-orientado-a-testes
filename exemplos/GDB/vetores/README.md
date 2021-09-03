@@ -41,3 +41,19 @@ Utilizamos o @ para exibir os primeiros cinco elementos a partir de \*v:
 ```
 (gdb) p *v@5
 ```
+
+Cada elemento pode ser acessado e modificado utilizando o comando print da mesma forma que os vetores alocados estaticamente.
+
+### Exemplo de uso
+
+Você pode compilar o programa main.c com 'make', e o binário será gerado já com a lista de símbolos do GDB, para você treinar os comandos desta aula. Se você desejar fazer a compilação diretamente pelo terminal do shell utilize o seguinte comando de compilação:
+
+```sh
+gcc -g main.c -o main.x
+```
+
+Daí, para carregar o binário executável no GDB, basta utilizar o comando a seguir:
+
+```sh
+gdb main.x
+```
