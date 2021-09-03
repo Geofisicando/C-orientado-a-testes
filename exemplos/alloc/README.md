@@ -85,6 +85,27 @@ Onde p é um vetor de 3 pessoas.
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
+Nesta aula nós aprendemos a inicializar o vetor de estruturas (struct) da aula anterior. A Alocação dinâmica é feita com a função de alocação
+dinâmica personalizada pessoaalloc. Após a alocação, podemos utilizar o vetor de estruturas como qualquer vetor do C. Veja o exemplo a seguir:
+
+```c
+PESSOA *p;
+p = pessoaalloc(3);
+
+p[0].nome = charalloc(10);
+p[0].idade = 29;
+p[0].cpf = 99999;
+```
+
+A string nome precisa ser inicializada com a função strcpy definida em 'string.h'. Basta fazer a inicialização como segue:
+
+```c
+strcpy(p[0].nome,"Dirack");
+```
+
+A função strcpy irá copiar a string 'Dirack' para p[0].nome, o tamanho alocado para p[0].nome com a função charalloc deve ser suficiente para armazenar a
+string passada.
+
 ## Exemplo de uso
 
 Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguinte comando:
