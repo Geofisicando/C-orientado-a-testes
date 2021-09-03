@@ -70,6 +70,17 @@ printf("Olá, meu nome é %s\n",string);
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
+Nesta aula nós aprendemos a criar uma função de alocação dinâmica personalizada para uma estrutura (struct). Utilizamos esta função para gerar
+um vetor de estruturas PESSOA, com nome, idade e cpf. A utilização da função de alocaçáo dinâmica do vetor de estruturas, pessoaalloc, é baseada
+na mesma lógica de funcionamento das demais funções de alocação dinâmica personalizada produzidas nas aulas anteriores. Basta utilizar:
+
+```c
+PESSOA *p;
+p = pessoaalloc(3);
+```
+
+Onde p é um vetor de 3 pessoas.
+
 ## Exemplo de uso
 
 Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguinte comando:
