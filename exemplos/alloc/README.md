@@ -81,6 +81,10 @@ p = pessoaalloc(3);
 
 Onde p é um vetor de 3 pessoas.
 
+# Aula 63 - Inicialização de vetores de structs em C
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
 ## Exemplo de uso
 
 Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguinte comando:
