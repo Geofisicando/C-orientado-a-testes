@@ -110,7 +110,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#61 - Função de alocação dinâmica personalizada de strings em c](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-61---fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-de-strings-em-c)
    - [#62 - Alocação dinâmica de vetores de structs em C](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-62---aloca%C3%A7%C3%A3o-din%C3%A2mica-de-vetores-de-structs-em-c)
    - [#63 - Inicialização de vetores de structs em C](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-63---inicializa%C3%A7%C3%A3o-de-vetores-de-structs-em-c)
-   - #64 - Utilizando variáveis durante a depuração com GDB
+   - [#64 - Utilizando variáveis durante a depuração com GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/gdb_vars#aula-64---utilizando-vari%C3%A1veis-durante-a-depura%C3%A7%C3%A3o-com-gdb)
    - [#65 - Como testar ponteiros em linguagem C utilizando o Unity](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/teste_ponteiros#aula-65---como-testar-ponteiros-em-linguagem-c-utilizando-o-unity)
    - #66 - Como testar arrays em linguagem C utilizando o Unity
    - #67 - Como testar vetores de structs em linguagem C utilizando o Unity
