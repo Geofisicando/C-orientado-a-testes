@@ -104,7 +104,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 
 ### Depuração de vetores e alocação dinâmica
 
-   - #58 - Como fazer a depuração de vetores no GDB? Alocação estática e dinâmica
+   - [#58 - Como fazer a depuração de vetores no GDB? Alocação estática e dinâmica](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/vetores#aula-58---como-fazer-a-depura%C3%A7%C3%A3o-de-vetores-no-gdb-aloca%C3%A7%C3%A3o-est%C3%A1tica-e-din%C3%A2mica)
    - [#59 - Criar uma função de alocação dinâmica personalizada em c (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-59---criar-uma-fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-em-c-parte-1)
    - [#60 - Criar uma função de alocação dinâmica personalizada em c (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-60---criar-uma-fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-em-c-parte-2)
    - [#61 - Função de alocação dinâmica personalizada de strings em c](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-61---fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-de-strings-em-c)
