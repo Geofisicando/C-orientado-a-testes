@@ -42,6 +42,12 @@ Utilizamos o @ para exibir os primeiros cinco elementos a partir de \*v:
 (gdb) p *v@5
 ```
 
+Outra forma de executar este comando a seguir:
+
+```
+(gdb) p v[0]@5
+```
+
 Cada elemento pode ser acessado e modificado utilizando o comando print da mesma forma que os vetores alocados estaticamente.
 
 ### Exemplo de uso
