@@ -66,6 +66,10 @@ Daí podemos utilizar a string na função printf:
 printf("Olá, meu nome é %s\n",string);
 ```
 
+# Aula 62 - Alocação dinâmica de vetores de structs em C
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
 ## Exemplo de uso
 
 Para compilar e rodar o exemplo de uso deste diretório basta utilizar o seguinte comando:
