@@ -12,9 +12,9 @@
 # 
 # Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
 
-all: exemplo.x
+all: main.x
 
-exemplo.x:	exemplo.c
+main.x:	main.c
 	gcc -g $< -o $@
 
 clean:

@@ -1,5 +1,5 @@
 /*
-* exemplo.c (C)
+* main.c (C)
 * 
 * Objetivo: Exemplo de utilização de variáveis no GDB.
 * 
