@@ -2,24 +2,39 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-Nesta aula nós aprendemos que os testes de variáveis do tipo ponteiro são realizados utilizando
-a macro 'TEST_ASSERT_EQUAL_PTR' para verificar se os dois ponteiros apontam
-para a mesma posição de memória. Basta utilizar:
+Nesta aula nós aprendemos a criar testes unitários para estruturas (structs) em C utilizando o Unity framework.
+Para tanto, primeiro, criamos uma função para a inicialização da estrutura (struct) PESSOA, a função pessoa_init a seguir:
 
 ```c
-TEST_ASSERT_EQUAL_PTR(p1,p2);
+void pessoa_init(PESSOA *p, char* nome, int idade, int cpf){
+	int len = strlen(nome)+1;
+	if(p->nome!=NULL) p->nome=NULL;
+	p->nome = charalloc(len);
+	strcpy(p->nome,nome);
+	p->idade = idade;
+	p->cpf = cpf;
+}
 ```
 
-Onde p1 e p2 são dois ponteiros.
-
-A mesma macro pode ser utilizada para testar se um ponteiro aponta para o endereço de memória de uma variável. Para tanto, basta
-passar o ponteiro e o endereço da variável com o operador '&' para a macro do unity:
+Esta função recebe um ponteiro para a estrutura PESSOA e os dados nome, idade e cpf da pessoa para realizar a inicialização. Utilizamos
+a função strlen da biblioteca 'string.h' para obter o tamanho da string nome passada e fazer a alocação dinâmica do nome da pessoa com a
+função charalloc, para a alocação dinâmica de strings, implementada na [Aula 60](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-60---criar-uma-fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-em-c-parte-2).
 
 ```c
-TEST_ASSERT_EQUAL_PTR(p1,&x);
+PESSOA *amigos;
+	amigos = pessoaalloc(2);
+	pessoa_init(amigos,"Dirack",29,90999);
+	pessoa_init(amigos+1,"Fulano",35,80888);
+
+	TEST_ASSERT_EQUAL_STRING("Dirack",amigos[0].nome);
+	TEST_ASSERT_EQUAL(29,amigos[0].idade);
+	TEST_ASSERT_EQUAL(90999,amigos[0].cpf);
+
+	TEST_ASSERT_EQUAL_STRING("Fulano",amigos[1].nome);
+	TEST_ASSERT_EQUAL(35,amigos[1].idade);
+	TEST_ASSERT_EQUAL(80888,amigos[1].cpf);
 ```
 
-Onde p1 é um ponteiro e x é uma variável.
 
 ## Exemplo de uso
 
