@@ -112,7 +112,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#63 - Inicialização de vetores de structs em C](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-63---inicializa%C3%A7%C3%A3o-de-vetores-de-structs-em-c)
    - [#64 - Utilizando variáveis durante a depuração com GDB](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/GDB/gdb_vars#aula-64---utilizando-vari%C3%A1veis-durante-a-depura%C3%A7%C3%A3o-com-gdb)
    - [#65 - Como testar ponteiros em linguagem C utilizando o Unity](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/teste_ponteiros#aula-65---como-testar-ponteiros-em-linguagem-c-utilizando-o-unity)
-   - #66 - Como testar arrays em linguagem C utilizando o Unity
+   - [#66 - Como testar arrays em linguagem C utilizando o Unity](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/teste_arrays#aula-66---como-testar-arrays-em-linguagem-c-utilizando-o-unity)
    - #67 - Como testar vetores de structs em linguagem C utilizando o Unity
    - [#68 - Criar um separador de strings em C na forma chave=valor (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/string_sep#aula-68---criar-um-separador-de-strings-em-c-na-forma-chavevalor-parte-1)
    - [#69 - Criar um separador de strings em C na forma chave=valor (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/string_sep#aula-69---criar-um-separador-de-strings-em-c-na-forma-chavevalor-parte-2)
