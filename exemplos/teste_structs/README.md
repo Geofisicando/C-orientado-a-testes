@@ -18,7 +18,8 @@ void pessoa_init(PESSOA *p, char* nome, int idade, int cpf){
 
 Esta função recebe um ponteiro para a estrutura PESSOA e os dados nome, idade e cpf da pessoa para realizar a inicialização. Utilizamos
 a função strlen da biblioteca 'string.h' para obter o tamanho da string nome passada e fazer a alocação dinâmica do nome da pessoa com a
-função charalloc, para a alocação dinâmica de strings, implementada na [Aula 60](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-60---criar-uma-fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-em-c-parte-2).
+função charalloc, para a alocação dinâmica de strings, implementada na [Aula 60](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-60---criar-uma-fun%C3%A7%C3%A3o-de-aloca%C3%A7%C3%A3o-din%C3%A2mica-personalizada-em-c-parte-2). Daí é só copiar o nome passado para
+a estrutura utilizando a função strcpy.
 
 A inicialização e utilização da estrutura PESSOA é trivial. Para criar um vetor de pessoas, basta utilizar a função de alocação dinâmica de structs
 PESSOA implementada na [Aula 62](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/alloc#aula-62---aloca%C3%A7%C3%A3o-din%C3%A2mica-de-vetores-de-structs-em-c), como no exemplo a seguir, e depois inicializar cada elemento do vetor com pessoa_init.
