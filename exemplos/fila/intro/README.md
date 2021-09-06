@@ -43,8 +43,9 @@ A seguir, uma representação esquemática do estado da fila após a inicializa�
  | :arrow_right: | NULL |
 
 A seguir, uma representação esquemática do estado da fila após a inserção de algumas pessoas na fila. Observe que
-cada pessoa aponta para a próxima pessoa da fila, à exceção da última que aponta para NULL. O ponteiro da fila aponta para a primeira pessoa
-da fila:
+cada pessoa aponta para a próxima pessoa da fila, à exceção da última que aponta para NULL (fim da fila).
+O ponteiro da fila aponta para a primeira pessoa
+da fila (início da fila):
 
 | FILA | Pessoas |
  | --- | --- |
