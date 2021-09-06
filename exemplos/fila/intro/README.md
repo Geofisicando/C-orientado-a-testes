@@ -3,7 +3,9 @@
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
 Nesta aula nós iniciamos a implementação da estrutura de dados fila criando a estrutura e a função de inicialização da fila, a função 'criar'.
-Nós também visualizamos a inicialização da fila no GDB utilizando os comandos básicos do GDB aprendidos nas aulas anteriores. A nossa estratégia de
+Nós também visualizamos a inicialização da fila no GDB utilizando os comandos básicos do GDB aprendidos nas aulas anteriores.
+
+A nossa estratégia de
 implementação da fila simula a construção de testes para código legado (sem testes). Assim, iremos fazer a implementação do código primeiro
 e utilizar o GDB para testar manualmente as funções e só depois faremos os testes unitários das funções no Unity framework. Observe que esta estratégia
 é diferente do desenvolvimento orientado a testes (TDD) utilizado para a implementação da estrutura de dados pilha nas [Aulas 8-14](https://github.com/Geofisicando/C-orientado-a-testes#desenvolvimento-de-uma-pilha-com-tdd).
@@ -34,4 +36,24 @@ void criar(FILA* f){
 }
 ```
 
-A seguir, uma representação esquemática do estado da fila no momento da inicialização:
+A seguir, uma representação esquemática do estado da fila após a inicialização com a função 'criar':
+
+| FILA | Pessoas |
+ | --- | --- |
+ | :arrow_right: | NULL |
+
+A seguir, uma representação esquemática do estado da fila após a inserção de algumas pessoas na fila. Observe que
+cada pessoa aponta para a próxima pessoa da fila, à exceção da última que aponta para NULL. O ponteiro da fila aponta para a primeira pessoa
+da fila:
+
+| FILA | Pessoas |
+ | --- | --- |
+ | | NULL |
+ | | :arrow_up: |
+ | | Pessoa 4 |
+ | | :arrow_up: |
+ | | Pessoa 3 |
+ | | :arrow_up: |
+ | | Pessoa 2 |
+ | | :arrow_up: |
+ | :arrow_right: | Pessoa 1 |
