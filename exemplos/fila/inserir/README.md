@@ -44,6 +44,17 @@ inserirmos um elemento:
  | | NULL |
   | | :arrow_up: |
  | :arrow_right: | Pessoa 1 |
+ 
+ Quando a próxima pessoa for inserida na fila, basta fazer com que o ponteiro da Pessoa 1 aponte para a próxima Pessoa e que esta aponte para o final
+ da fila (para NULL). O ponteiro da fila não é deslocado, é mantido apontando para a primeira pessoa da fila:
+ 
+  | FILA | Pessoas |
+ | --- | --- |
+  | | NULL |
+  | | :arrow_up: |
+ | | Pessoa 2 |
+   | | :arrow_up: |
+ | :arrow_right: | Pessoa 1 |
 
 ### Exemplo de uso
 
