@@ -97,7 +97,7 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#51 - Como implementar uma estrutura de dados fila em C, função criar fila](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/fila/intro#aula-51---como-implementar-uma-estrutura-de-dados-fila-em-c-fun%C3%A7%C3%A3o-criar-fila)
    - [#52 - Implementar uma estrutura de dados fila em C, função inserir (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/fila/inserir#aula-52---implementar-uma-estrutura-de-dados-fila-em-c-fun%C3%A7%C3%A3o-inserir-parte-1)
    - [#53 - Implementar uma estrutura de dados fila em C, função inserir (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/fila/inserir#aula-53---implementar-uma-estrutura-de-dados-fila-em-c-fun%C3%A7%C3%A3o-inserir-parte-2)
-   - #54 - Implementar uma estrutura de dados fila em C, função listar
+   - [#54 - Implementar uma estrutura de dados fila em C, função listar](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/fila/listar#aula-54---implementar-uma-estrutura-de-dados-fila-em-c-fun%C3%A7%C3%A3o-listar)
    - #55 - Implementar uma estrutura de dados fila em C, função apagar
    - #56 - Implementar os testes da estrutura de dados fila (Parte 1)
    - #57 - Implementar os testes da estrutura de dados fila (Parte 2)
