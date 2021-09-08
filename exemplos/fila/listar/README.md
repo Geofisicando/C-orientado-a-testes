@@ -13,3 +13,22 @@ if(f==NULL) return;
 printf("%s %d\n",f->nome,f->idade);
 listar(f->prox);
 ```
+
+A utilização da recursão é bastante útil para a implementação da função 'listar', mas tem as suas limitações. Pois, a cada chamada recursiva
+à função listar, uma chamada é empilhada na pilha de funções. Podemos observar a pilha de funções do programa com o comando backtrace do GDB 
+(ou bt na versão abreviada). As chamadas à função listar são empilhadas na pilha de funções e desempilhadas em sequência no retorno da função
+'listar'.
+
+### Exemplo de uso
+
+Você pode compilar o programa fila.c com 'make', e o binário fila.x será gerado já com a lista de símbolos do GDB, para você treinar os comandos desta aula. Se você desejar fazer a compilação diretamente pelo terminal do shell utilize o seguinte comando de compilação:
+
+```sh
+gcc -g fila.c -o fila.x
+```
+
+Daí, para carregar o binário executável no GDB, basta utilizar o comando a seguir:
+
+```sh
+gdb fila.x
+```
