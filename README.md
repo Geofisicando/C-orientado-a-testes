@@ -99,8 +99,8 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
    - [#53 - Implementar uma estrutura de dados fila em C, função inserir (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/fila/inserir#aula-53---implementar-uma-estrutura-de-dados-fila-em-c-fun%C3%A7%C3%A3o-inserir-parte-2)
    - [#54 - Implementar uma estrutura de dados fila em C, função listar](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/fila/listar#aula-54---implementar-uma-estrutura-de-dados-fila-em-c-fun%C3%A7%C3%A3o-listar)
    - [#55 - Implementar uma estrutura de dados fila em C, função apagar](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/fila/apagar#aula-55---implementar-uma-estrutura-de-dados-fila-em-c-fun%C3%A7%C3%A3o-apagar)
-   - #56 - Implementar os testes da estrutura de dados fila (Parte 1)
-   - #57 - Implementar os testes da estrutura de dados fila (Parte 2)
+   - [#56 - Implementar os testes da estrutura de dados fila (Parte 1)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/fila/testes#aula-56---implementar-os-testes-da-estrutura-de-dados-fila-parte-1)
+   - [#57 - Implementar os testes da estrutura de dados fila (Parte 2)](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/fila/testes#aula-57---implementar-os-testes-da-estrutura-de-dados-fila-parte-2)
 
 ### Depuração de vetores e alocação dinâmica
 
