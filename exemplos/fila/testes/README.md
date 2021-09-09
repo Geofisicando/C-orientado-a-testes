@@ -27,16 +27,23 @@ do segundo elemento, como fizemos com o primeiro.
 
 A seguir, a representação esquemática do funcionamento do teste. A fila antes da chamada à função apagar:
 
- | FILA | Pessoas |
- | --- | --- |
- | | NULL |
- | | :arrow_up: |
- | | Pessoa 3 |
- | | :arrow_up: |
- | | Pessoa 2 |
- | | :arrow_up: |
- | :arrow_right: | Pessoa 1 |
+ | FILA | Pessoas | Nome | Idade |
+ | --- | --- | --- | --- |
+ | | NULL | | |
+ | | :arrow_up: | | |
+ | | Pessoa 3 | | |
+ | | :arrow_up: | | |
+ | | Pessoa 2 | | |
+ | | :arrow_up: | | |
+ | :arrow_right: | Pessoa 1 | Dirack | 29 |
  
+Daí basta verificar os dados com as macros do Unity, como no exemplo a seguir:
+ 
+```c
+TEST_ASSERT_EQUAL(f->idade,29);
+TEST_ASSERT_EQUAL_STRING(f->nome,"Dirack");
+```
+
 A fila após a função 'apagar' finalizar:
 
  | FILA | Pessoas |
