@@ -57,9 +57,24 @@ A fila após a função 'apagar' finalizar será:
 Daí basta verificar os dados da primeira pessoa da fila (referenciada pelo ponteiro da fila) com as macros do Unity, como no exemplo a seguir:
 
 ```c
-	TEST_ASSERT_EQUAL(f->idade,44);
- TEST_ASSERT_EQUAL_STRING(f->nome,"Fulano");
- ```
+TEST_ASSERT_EQUAL(f->idade,44);
+TEST_ASSERT_EQUAL_STRING(f->nome,"Fulano");
+```
+
+No último teste fazemos mais uma chamada à função apagar. A fila após a função 'apagar' finalizar será:
+
+ | FILA | Pessoas | Nome | Idade |
+ | --- | --- | --- | --- |
+ | | NULL | | |
+ | | :arrow_up: | | |
+ | :arrow_right: | Pessoa 3 | Beltrano | 22 |
+
+Daí basta verificar os dados da pessoa que restou na fila (referenciada pelo ponteiro da fila) com as macros do Unity, como no exemplo a seguir:
+
+```c
+TEST_ASSERT_EQUAL(f->idade,22);
+TEST_ASSERT_EQUAL_STRING(f->nome,"Beltrano");
+```
 
 ### Exemplo de uso
 
