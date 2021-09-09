@@ -2,6 +2,16 @@
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
+Nesta aula nós iniciamos os testes da estrutura de dados fila, construímos a suíte de testes e o primeiro teste unitário para a função criar. O teste é simples,
+pois a função criar apenas inicializa o ponteiro da fila como NULL, indicando que não há elementos na fila. Assim, basta checar o
+ponteiro da fila após a utilização da função criar. Para tanto utilizamos a macro TEST_ASSERT_NULL como no exemplo a seguir:
+
+```c
+TEST_ASSERT_NULL(f);
+```
+
+Verifica se o ponteiro f aponta para NULL.
+
 # Aula 57 - Implementar os testes da estrutura de dados fila (Parte 2)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
