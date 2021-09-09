@@ -9,6 +9,7 @@ TEST_TEAR_DOWN(Grupo1){}
 TEST(Grupo1,random1)
 {
   TEST_ASSERT_EQUAL(0, 0);
+  TEST_MESSAGE("Eu sou grupo 1!");
 }
 
 TEST(Grupo1,random2)
