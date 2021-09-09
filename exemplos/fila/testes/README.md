@@ -31,29 +31,35 @@ A seguir, a representação esquemática do funcionamento do teste. A fila antes
  | --- | --- | --- | --- |
  | | NULL | | |
  | | :arrow_up: | | |
- | | Pessoa 3 | | |
+ | | Pessoa 3 | Beltrano | 22 |
  | | :arrow_up: | | |
- | | Pessoa 2 | | |
+ | | Pessoa 2 | Fulano | 44 |
  | | :arrow_up: | | |
  | :arrow_right: | Pessoa 1 | Dirack | 29 |
  
-Daí basta verificar os dados com as macros do Unity, como no exemplo a seguir:
+Daí basta verificar os dados da primeira pessoa da fila (referenciada pelo ponteiro da fila) com as macros do Unity, como no exemplo a seguir:
  
 ```c
 TEST_ASSERT_EQUAL(f->idade,29);
 TEST_ASSERT_EQUAL_STRING(f->nome,"Dirack");
 ```
 
-A fila após a função 'apagar' finalizar:
+A fila após a função 'apagar' finalizar será:
 
- | FILA | Pessoas |
- | --- | --- |
-  | | NULL |
-      | | :arrow_up: |
- | | Pessoa 3 |
-  | | :arrow_up: |
- | f :arrow_right: | Pessoa 2 |
+ | FILA | Pessoas | Nome | Idade |
+ | --- | --- | --- | --- |
+ | | NULL | | |
+ | | :arrow_up: | | |
+ | | Pessoa 3 | Beltrano | 22 |
+ | | :arrow_up: | | |
+ | :arrow_right: | Pessoa 2 | Fulano | 44 |
 
+Daí basta verificar os dados da primeira pessoa da fila (referenciada pelo ponteiro da fila) com as macros do Unity, como no exemplo a seguir:
+
+```c
+	TEST_ASSERT_EQUAL(f->idade,44);
+ TEST_ASSERT_EQUAL_STRING(f->nome,"Fulano");
+ ```
 
 ### Exemplo de uso
 
