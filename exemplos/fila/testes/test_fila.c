@@ -1,3 +1,19 @@
+/*
+* test_fila.c (C)
+* 
+* Objetivo: Implementação dos testes unitários da estrutura de dados fila.
+* 
+* Site: https://dirack.github.io
+* 
+* Versão 1.0
+* 
+* Programador: Rodolfo A C Neves (Dirack) 09/09/2021
+* 
+* Email: rodolfo_profissional@hotmail.com
+* 
+* Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
+*/
+
 #include "Unity/unity.h"
 #include "fila.h"
 

@@ -1,3 +1,19 @@
+/*
+* fila.h (C)
+* 
+* Objetivo: Implementação da estrutura de dados fila.
+* 
+* Site: https://dirack.github.io
+* 
+* Versão 1.0
+* 
+* Programador: Rodolfo A C Neves (Dirack) 09/09/2021
+* 
+* Email: rodolfo_profissional@hotmail.com
+* 
+* Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -40,14 +56,3 @@ void apagar(FILA* f){
 	free(tmp);
 }
 
-/*int main(void){
-	FILA f;
-	criar(&f);
-	inserir(&f,29,"Dirack");
-	inserir(&f,44,"Fulano");
-	inserir(&f,22,"Beltrano");
-	listar(f);
-	puts("**********");
-	apagar(&f);
-	listar(f);
-}*/
