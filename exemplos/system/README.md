@@ -14,3 +14,20 @@ Além disso a função system depois de lançar o processo filho executa a syste
 # Aula 76 - A função system e a chamada de sistema waitpid
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+A chamada de sistema wait tem múltiplas limitações e, para cobrir recursos mais avançados,
+a função waitpid deve ser utilizada. Ou seja, se um processo cria vários filhos e o pai precisa monitorar um filho específico,
+apenas waitpid pode fazer isso
+
+O waitpid leva três argumentos, o primeiro dos quais é o número de identificação do processo (pid).
+O PID pode ter vários valores predefinidos com diferentes efeitos, mas, neste caso, vamos apenas mencionar -1 e >0.
+O valor -1 pode ser passado para monitorar qualquer processo filho que muda seu estado primeiro, que é usado para implementar
+a funcionalidade wait. >0 implica que o valor deve ser o ID do processo real que foi retornado da função fork, que por sua vez
+é usado para monitorar apenas o processo filho específico. O segundo argumento é do tipo ponteiro int e devemos declarar uma
+variável inteira para passar seu endereço para a função. waitpid, por outro lado, irá armazenar as informações de status do
+filho na variável int fornecida, que então pode ser decodificada usando as macros predefinidas. O último argumento é do tipo
+int e é usado para especificar determinados eventos de processo filho a serem monitorados, além dos padrões.
+
+### Referências
+
+[Delfstack](https://www.delftstack.com/pt/howto/c/waitpid-in-c/)
