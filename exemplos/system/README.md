@@ -30,4 +30,4 @@ int e é usado para especificar determinados eventos de processo filho a serem m
 
 ### Referências
 
-[Delfstack](https://www.delftstack.com/pt/howto/c/waitpid-in-c/)
+[Delfstack - Use a função waitpid em C](https://www.delftstack.com/pt/howto/c/waitpid-in-c/)
