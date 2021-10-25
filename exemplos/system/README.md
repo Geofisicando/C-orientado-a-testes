@@ -30,4 +30,5 @@ int e é usado para especificar determinados eventos de processo filho a serem m
 
 ### Referências
 
-[Delfstack - Use a função waitpid em C](https://www.delftstack.com/pt/howto/c/waitpid-in-c/)
+- [Maria Joao Nicolau - A função system](http://marco.uminho.pt/~joao/Socae/node18.html)
+- [Delfstack - Use a função waitpid em C](https://www.delftstack.com/pt/howto/c/waitpid-in-c/)
