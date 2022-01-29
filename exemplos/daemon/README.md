@@ -17,7 +17,8 @@ A estrutura das nossas aulas sobre Daemons a seguir:
 ### Referências:
 
 * [Terminal de Informação: Oque são Daemons?](https://terminaldeinformacao.com/2020/07/21/o-que-sao-daemons/)
-* https://stackoverflow.com/questions/881388/what-is-the-reason-for-performing-a-double-fork-when-creating-a-daemon
-* https://pt.wikipedia.org/wiki/Daemon_(computa%C3%A7%C3%A3o)
-* https://pt.wikipedia.org/wiki/Umask https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux/17955149#17955149
-* https://unix.stackexchange.com/questions/18166/what-are-session-leaders-in-ps
+* [Stack Overflow: What is the reason for performing a double fork when creating a daemon?](https://stackoverflow.com/questions/881388/what-is-the-reason-for-performing-a-double-fork-when-creating-a-daemon)
+* [Wikipédia: Daemon (computação)](https://pt.wikipedia.org/wiki/Daemon_(computa%C3%A7%C3%A3o))
+* [Wikipédia: Umask](https://pt.wikipedia.org/wiki/Umask)
+* [Stack Overflow: Creating a daemon in Linux](https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux/17955149#17955149)
+* [Stack Exchange: What are "session leaders" in ps?](https://unix.stackexchange.com/questions/18166/what-are-session-leaders-in-ps)
