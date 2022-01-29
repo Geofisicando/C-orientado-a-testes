@@ -23,5 +23,8 @@ void oursystem(const char *cmd){
 }
 
 int main(void){
+	/* Este comando irá funcionar*/
+	oursystem("ls");
+	/* Este comando irá falhar */
 	oursystem("ls h");
 }
