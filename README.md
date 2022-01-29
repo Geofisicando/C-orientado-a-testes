@@ -129,3 +129,6 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 - [#74 - As chamadas de sistema wait e exec no Linux](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/syscalls/wait_exec#aula-74---as-chamadas-de-sistema-wait-e-exec-no-linux)
 - [#75 - Como rodar um comando ou script do shell em um programa em C](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/system#aula-75---como-rodar-um-comando-ou-script-do-shell-em-um-programa-em-c)
 - [#76 - A função system e a chamada de sistema waitpid](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/system#aula-76---a-fun%C3%A7%C3%A3o-system-e-a-chamada-de-sistema-waitpid)
+- [#77 - Como obter o valor de uma variável de ambiente do shell em C](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/getenv#aula-77---como-obter-o-valor-de-uma-vari%C3%A1vel-de-ambiente-do-shell-em-c)
+
+### Implementação de um Daemon em linguagem C
