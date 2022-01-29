@@ -10,3 +10,25 @@ getenv("HOME")
 ```
 
 A função 'getenv' acima irá retornar o valor armazenado na variável de ambiente $HOME como uma string.
+
+Podemos também obter outras variáveis que não sejam as variáveis de ambiente utilizando o comando 'export'. Primeiro criamos uma variável
+qualquer e a exportamos no terminal do Shell, como no exemplo a seguir:
+
+```sh
+NOME="Rodolfo Dirack"
+export NOME
+```
+
+A variável $NOME agora pode ser obtida dentro do nosso programa em C com a função 'getenv' e exibida com 'printf':
+
+```c
+printf("NOME: %s \n",getenv("NOME"));
+```
+
+## Exemplo de uso
+
+Para compilar e rodar o exemplo de uso deste diretório utilizando o Makefile basta utilizar o seguinte comando:
+
+```sh
+make
+```
