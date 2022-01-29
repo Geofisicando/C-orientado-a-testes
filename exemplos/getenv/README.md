@@ -27,6 +27,12 @@ printf("NOME: %s \n",getenv("NOME"));
 
 ## Exemplo de uso
 
+Primeiro faça o export das variáveis lidas pelo programa 'exemplo.c' com o seguinte comando:
+
+```sh
+export LINES COLUMNS VAR="Rodolfo Dirack"
+```
+
 Para compilar e rodar o exemplo de uso deste diretório utilizando o Makefile basta utilizar o seguinte comando:
 
 ```sh
