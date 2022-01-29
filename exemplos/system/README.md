@@ -28,6 +28,26 @@ variável inteira para passar seu endereço para a função. waitpid, por outro 
 filho na variável int fornecida, que então pode ser decodificada usando as macros predefinidas. O último argumento é do tipo
 int e é usado para especificar determinados eventos de processo filho a serem monitorados, além dos padrões.
 
+## Exemplos de uso
+
+Para compilar os exemplos de uso deste diretório utilizando o Makefile basta utilizar o seguinte comando:
+
+```sh
+make
+```
+
+Daí basta executar os arquivos executáveis gerados na pasta atual com:
+
+```sh
+./exemplo.x
+```
+
+E depois:
+
+```sh
+./system.x
+```
+
 ### Referências
 
 - [Maria Joao Nicolau - A função system](http://marco.uminho.pt/~joao/Socae/node18.html)
