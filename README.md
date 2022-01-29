@@ -132,3 +132,6 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 - [#77 - Como obter o valor de uma variável de ambiente do shell em C](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/getenv#aula-77---como-obter-o-valor-de-uma-vari%C3%A1vel-de-ambiente-do-shell-em-c)
 
 ### Implementação de um Daemon em linguagem C
+
+- [#78 - Como implementar um daemon em C: Introdução e estrutura das aulas](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/daemon#aula-78---como-implementar-um-daemon-em-c-introdu%C3%A7%C3%A3o-e-estrutura-das-aulas)
+
