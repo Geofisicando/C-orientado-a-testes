@@ -6,29 +6,28 @@
 #include <unistd.h>
 #include <sys/stat.h>
 
-// transform the program into a daemon
-void daemonize(void) {
+void daemonize(void)
+/*< Transformar o processo chamador em um Daemon >*/
+{
     int i = 0;
     pid_t pid = 0;
     struct rlimit rlimit;
 
-    // first fork and die (generate first child)
+    /* primeito fork and die (para gerar o primeiro filho) */
     pid = fork();
-    if (pid >= 0) { // fork successful
-        if (pid != 0) { // if parent, die
+    if (pid >= 0) {
+        if (pid != 0) { // Encerrar o pai
             exit(0);
         }
-    } else { // error
+    } else { // erro
         exit(1);
     }
-    // become a session leader
+    
+    /* Criar nova sessão e tornar o primeiro filho líder desta sessão */
     if (setsid() < 0) {
-        exit(1); // error
+        exit(1); // erro
     }
-    // ignore SIGHUP
-    if ((signal(SIGHUP, SIG_IGN) == SIG_ERR)) {
-        exit(1); // error
-    }
+    
     // second fork and die (generate second child)
     pid = fork();
     if (pid >= 0) { // fork successful
@@ -38,20 +37,30 @@ void daemonize(void) {
     } else { // error
         exit(1);
     }
-    // set appropriate umask
+    
+    /* Ignorar sinal SIGHUP */
+    if ((signal(SIGHUP, SIG_IGN) == SIG_ERR)) {
+        exit(1); // erro
+    }
+    
+    /* Setar a máscara de permissões padrão */ 
     umask(0);
-    // set root as working dir
+    
+    /* Mudar o diretório de trabalho para o diretório raíz */
     if (chdir("/") < 0) {
-        exit(1); // error
+        exit(1); // erro
     }
-    // close all file descriptors
+    
+    /* Fechar todos os descritores de arquivo */
     if (getrlimit(RLIMIT_NOFILE, &rlimit) < 0) {
-        exit(1); // error
+        exit(1); // erro
     }
+    
     for (i = 0; i < rlimit.rlim_max; i++) {
         close(i);
     }
-    // redirect stdin/stdout/stderr to null
+    
+    /* redirecionar stdin/stdout/stderr para /dev/null */
     open("/dev/null", O_RDONLY);
     open("/dev/null", O_RDWR);
     open("/dev/null", O_RDWR);
