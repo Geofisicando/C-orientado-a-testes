@@ -14,7 +14,7 @@ A estrutura das nossas aulas sobre Daemons a seguir:
 
 * **Aula 3 - Função daemonize:** Por fim, nesta aula nós iremos aprender em detalhes a implementação da função daemonize que transforma o processo chamador em um daemon utilizando a técnica "fork and die".
 
-# 79 - Oque é um Daemon e como funciona a técnica fork and die?
+# Aula 79 - Oque é um Daemon e como funciona a técnica fork and die?
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
