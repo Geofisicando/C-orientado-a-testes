@@ -1,9 +1,8 @@
-#
 # Makefile
 # 
 # Objetivo: Compilação do daemon gb_daemon.
 # 
-# Site: http://www.dirackslounge.online
+# Site: https://dirack.github.io
 # 
 # Versão 1.0
 # 
@@ -15,3 +14,9 @@
 
 all: 
 	gcc daemon.c gb_daemon.c -o gb_daemon
+
+clean:
+	rm gb_daemon
+
+help:
+	@echo "Para compilar o gb_daemon basta rodar o comando 'make'"
