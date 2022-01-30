@@ -40,7 +40,7 @@ Estes passos são seguidos internamente pela função _daemonize_, ao realizá-l
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-# Aula 81 - Daemon adotado pelo systemd ao invés do init?
+# Aula 81 - Configurar o Daemon e o script de serviço do init
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
