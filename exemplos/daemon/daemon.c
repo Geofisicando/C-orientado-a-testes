@@ -28,13 +28,13 @@ void daemonize(void)
         exit(1); // erro
     }
     
-    // second fork and die (generate second child)
+    /* Segundo fork and die (Para gerar o segundo filho) */
     pid = fork();
-    if (pid >= 0) { // fork successful
-        if (pid != 0) { // if first child, die
+    if (pid >= 0) {
+        if (pid != 0) { // Encerrar o primeiro filho
             exit(0);
         }
-    } else { // error
+    } else { // erro
         exit(1);
     }
     
