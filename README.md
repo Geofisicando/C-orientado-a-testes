@@ -134,4 +134,5 @@ Este curso utiliza o Unity framework de testes unitários em C e o depurador GDB
 ### Implementação de um Daemon em linguagem C
 
 - [#78 - Como implementar um daemon em C: Introdução e estrutura das aulas](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/daemon#aula-78---como-implementar-um-daemon-em-c-introdu%C3%A7%C3%A3o-e-estrutura-das-aulas)
+- [#79 - Oque é um Daemon e como funciona a técnica fork and die?](https://github.com/Geofisicando/C-orientado-a-testes/blob/main/exemplos/daemon/README.md#aula-79---oque-%C3%A9-um-daemon-e-como-funciona-a-t%C3%A9cnica-fork-and-die)
 
