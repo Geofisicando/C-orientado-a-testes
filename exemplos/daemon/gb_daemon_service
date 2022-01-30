@@ -4,7 +4,7 @@
 # 
 # Objetivo: Script de serviço do daemon gb_daemon.
 # 
-# Site: http://www.dirackslounge.online
+# Site: https://dirack.github.io
 # 
 # Versão 1.0
 # 
@@ -15,16 +15,16 @@
 # Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
 
 GB_DAEMON="gb_daemon"
-COMMAND="/usr/local/bin/$GB_DAEMON"
+COMMAND="./$GB_DAEMON"
 
 case "$1" in
     start)
 	"$COMMAND"
-	zenity --notification --text "GB daemon started $(date +%H:%M:%S)"
+	echo "GB daemon started $(date +%H:%M:%S)"
         ;;
     stop)
         killall "$GB_DAEMON"
-	zenity --notification --text "GB daemon stopped $(date +%H:%M:%S)"
+	echo "GB daemon stopped $(date +%H:%M:%S)"
         ;;
     restart|force-reload)
         killall "$GB_DAEMON"
@@ -36,7 +36,7 @@ case "$1" in
         if ps -C "$GB_DAEMON" >/dev/null; then
             echo "GB daemon is running"
         else
-            echo "GB daemon is not running"
+            echo "GB daemon is NOT running"
         fi
         ;;
     *)
