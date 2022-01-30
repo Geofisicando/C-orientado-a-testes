@@ -36,6 +36,14 @@ a seguir:
 
 Estes passos são seguidos internamente pela função _daemonize_, ao realizá-los, a função transforma o processo chamador em um _Daemon_.
 
+# Aula 80 - Implementação de um Daemon em C e utilização da syslog
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+# Aula 81 - Implementação da função daemonize e da técnica fork and die
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
 ### Referências:
 
 * [Terminal de Informação: Oque são Daemons?](https://terminaldeinformacao.com/2020/07/21/o-que-sao-daemons/)
