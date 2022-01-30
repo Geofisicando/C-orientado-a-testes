@@ -1,4 +1,4 @@
 #ifndef DAEMON_H
 #define DAEMON_H
-void daemonize(void);
+  void daemonize(void);
 #endif
