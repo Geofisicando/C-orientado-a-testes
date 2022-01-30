@@ -50,6 +50,10 @@ Estes passos são seguidos internamente pela função _daemonize_, ao realizá-l
 
 ### Referências:
 
+* Tutorial sobre Daemons (GBzando - Programação, infraestrutura e redes na prática): 
+  * https://www.gbzando.com.br/daemons/
+  * https://www.gbzando.com.br/daemons-2/
+  * https://www.gbzando.com.br/servicos-linux/
 * [Terminal de Informação: Oque são Daemons?](https://terminaldeinformacao.com/2020/07/21/o-que-sao-daemons/)
 * [Stack Overflow: What is the reason for performing a double fork when creating a daemon?](https://stackoverflow.com/questions/881388/what-is-the-reason-for-performing-a-double-fork-when-creating-a-daemon)
 * [Wikipédia: Daemon (computação)](https://pt.wikipedia.org/wiki/Daemon_(computa%C3%A7%C3%A3o))
