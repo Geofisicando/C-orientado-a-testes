@@ -40,7 +40,11 @@ Estes passos são seguidos internamente pela função _daemonize_, ao realizá-l
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
-# Aula 81 - Implementação da função daemonize e da técnica fork and die
+# Aula 81 - Daemon adotado pelo systemd ao invés do init?
+
+[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
+
+# Aula 82 - Implementação da função daemonize e da técnica fork and die
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
 
