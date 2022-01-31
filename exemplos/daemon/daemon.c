@@ -28,6 +28,11 @@ void daemonize(void)
         exit(1); // erro
     }
     
+    /* Ignorar sinal SIGHUP */
+    if ((signal(SIGHUP, SIG_IGN) == SIG_ERR)) {
+        exit(1); // erro
+    }
+    
     /* Segundo fork and die (Para gerar o segundo filho) */
     pid = fork();
     if (pid >= 0) {
@@ -36,11 +41,6 @@ void daemonize(void)
         }
     } else { // erro
         exit(1);
-    }
-    
-    /* Ignorar sinal SIGHUP */
-    if ((signal(SIGHUP, SIG_IGN) == SIG_ERR)) {
-        exit(1); // erro
     }
     
     /* Setar a máscara de permissões padrão */ 
