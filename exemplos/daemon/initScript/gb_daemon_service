@@ -1,0 +1,45 @@
+#!/bin/bash
+#
+# gb_daemon_service (Shell Script)
+# 
+# Objetivo: Script de serviço do daemon gb_daemon.
+# 
+# Site: https://dirack.github.io
+# 
+# Versão 1.0
+# 
+# Programador: Rodolfo Dirack 28/10/2019
+# 
+# Email: rodolfo_profissional@hotmail.com
+# 
+# Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
+
+GB_DAEMON="gb_daemon"
+COMMAND="/usr/local/bin/$GB_DAEMON"
+
+case "$1" in
+    start)
+	"$COMMAND"
+	echo "GB daemon started $(date +%H:%M:%S)"
+        ;;
+    stop)
+        killall "$GB_DAEMON"
+	echo "GB daemon stopped $(date +%H:%M:%S)"
+        ;;
+    restart|force-reload)
+        killall "$GB_DAEMON"
+        echo "GB daemon stopped"
+        "$COMMAND"
+        echo "GB daemon started"
+        ;;
+    status)
+        if ps -C "$GB_DAEMON" >/dev/null; then
+            echo "GB daemon is running"
+        else
+            echo "GB daemon is NOT running"
+        fi
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart|force-reload|status}"
+        ;;
+esac
