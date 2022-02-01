@@ -49,4 +49,44 @@ ps -xj | grep gb_daemon
 
 A primeira coluna será o PPID dos processos. E será diferente de 1 indicando que o nosso 'gb_daemon' não é filho direto de _init_.
 
-Para fazer com que o  'gb_daemon' 
+Para fazer com que o  'gb_daemon' seja filho direto do processo _init_, primeiro fazemos o update (registro do serviço) com o
+comando a seguir:
+
+```sh
+update-rc.d gb_daemon_service defaults
+```
+
+Depois de autenticar com a senha, o serviço estará registrado. Agora podemos iniciar o 'gb_daemon' com o comando 'service' a seguir:
+
+```sh
+service gb_daemon_service start
+```
+
+Depois de autenticar, o serviço do Daemon será iniciado. Podemos verificar se o Daemon está rodando com:
+
+```sh
+service gb_daemon_service status
+```
+
+E para verificar o PPID do nosso Daemon utilizamos o comando 'ps' a seguir:
+
+```sh
+ps -axj | grep gb_daemon
+```
+
+Agora, na primeira coluna, o PPID do processo 'gb_daemon' deverá ser igual a 1, indicando que o nosso Daemon é filho direto do processo _init_.
+Para encerrar o serviço, basta utilizar:
+
+```sh
+service gb_daemon_service stop
+```
+
+## Exemplo de uso
+
+Para compilar o exemplo de uso deste diretório utilizando o Makefile basta utilizar o seguinte comando:
+
+```sh
+make
+```
+
+Isto irá gerar o executável 'gb_daemon'.
