@@ -14,10 +14,6 @@ A estrutura das nossas aulas sobre Daemons a seguir:
 
 * **Aula 3 - Função daemonize:** Por fim, nesta aula nós iremos aprender em detalhes a implementação da função daemonize que transforma o processo chamador em um daemon utilizando a técnica "fork and die".
 
-# Aula 81 - Configurar o Daemon e o script de serviço do init
-
-[:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
-
 # Aula 82 - Implementação da função daemonize e da técnica fork and die (Parte 1)
 
 [:arrow_up: Voltar](https://github.com/Geofisicando/C-orientado-a-testes#%C3%ADndice)
