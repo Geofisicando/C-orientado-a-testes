@@ -52,7 +52,7 @@ killall gb_daemon
 
 ### Exemplo de uso da primeira parte da aula
 
-Você pode reproduzir o exemplo de uso presente na pasta [fork]() deste diretório. Neste exemplo, implementamos a função daemonize até o primeiro fork,
+Você pode reproduzir o exemplo de uso presente na pasta [fork](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/daemon/daemonize/parte1/fork) deste diretório. Neste exemplo, implementamos a função daemonize até o primeiro fork,
 criamos o processo filho e fazemos a chamada de sistema pause em ambos, processo filho e pai para que você possa visualizar os dois processos utilizando
 o comando 'ps' visto nesta aula. Basta compilar com:
 
