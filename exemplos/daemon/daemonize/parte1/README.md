@@ -5,7 +5,7 @@
 Nesta aula nós começamos a estudar implementação da técnica "fork and die" para tornar um processo em um Daemon. Nós começamos a implementar
 a função daemonize que, quando chamada dentro da função main, torna o processo chamador em um Daemon.
 
-### Primeira chamada de sistema fork
+## 1. Primeira chamada de sistema fork
 
 Primeiro, nós iniciamos o processo criando o primeiro filho, a partir do processo pai, com a chamada de sistema fork (como aprendemos
 na [Aula 73](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/syscalls/fork#aula-73---criar-processos-no-linux-a-chamada-de-sistema-fork)).
@@ -94,7 +94,7 @@ Execute o comando killall para encerrar todas as instâncias de 'gb_daemon' quan
 killall gb_daemon
 ```
 
-### Encerrar o processo pai
+## 2. Encerrar o processo pai
 
 Nesta segunda parte da aula, nós apenas acrescentamos a chamada de sistema exit ao código do processo pai, para encerrar ("matar" o processo pai).
 Daí fazemos pause para visualizar o processo filho após o encerramento do processo pai. Veja o trecho de código a seguir:
