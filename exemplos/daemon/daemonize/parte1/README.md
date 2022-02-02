@@ -10,6 +10,22 @@ na [Aula 73](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exem
 Após a chamada temos dois processos, o processo pai e o processo filho, uma cópia idêntica do processo pai.
 
 Para visualizar os dois processos, nós utilizamos a chamada de sistema pause(), que faz o processo chamador dormir até que este receba um sinal qualquer.
+Como no trecho de código a seguir:
+
+```c
+/* primeito fork and die (para gerar o primeiro filho) */
+    pid = fork();
+    if (pid >= 0) {
+        if (pid != 0) { // Encerrar o pai
+            pause(); // Ambos os processos irão parar
+        }
+    } else { // erro
+        exit(1);
+    }
+```
+
+A variável pid assume dois valores, o pid do processo filho se estiver no processo pai, e 0 se estiver no processo filho. Daí podemos saber se
+estamos no processo filho ou no processo pai com um if. A variável pid será negativa se ocorrer um erro na chamada de sistema fork.
 
 Daí iniciamos o 'gb_daemon' com o seguinte comando:
 
@@ -17,7 +33,7 @@ Daí iniciamos o 'gb_daemon' com o seguinte comando:
 ./gb_daemon
 ```
 
-Abrimos outro terminal, e visualizamos a lista de processos com o comando 'ps' e filtramos a saída com o 'grep', com o comando a seguir:
+Abrimos outro terminal, visualizamos a lista de processos com o comando 'ps' e filtramos a saída com o 'grep', com o comando a seguir:
 
 ```sh
 ps -xj | grep gb_daemon
@@ -32,8 +48,11 @@ ps -xj | grep gb_daemon
   20967   20986   20985   20967 pts/8      20985 S+    1000   0:00 grep --color=auto gb_daemon
 ```
 
+A primeira coluna é o PPID do processo (ID do processo pai), a segunda é o PID (ID do processo) e a quinta é o terminal de controle do processo
+(iremos ignorar as outras colunas por enquanto).
+
 No terminal, devem aparecer duas instâncias do 'gb_daemon', uma destas instâncias deve ter o PPID igual ao PID da outra, indicando que se
-trata do processo filho criado a partir da chamada de sistema fork. A outra instância de 'gb_daemon' deve ter o PPID igual ao PID do terminal
+trata do processo filho, criado a partir da chamada de sistema fork. A outra instância de 'gb_daemon' deve ter o PPID igual ao PID do terminal
 do bash, indicando que esta é o processo pai.
 
 Para verificar o nome do processo em execução a partir do PID, utilizamos o seguinte comando:
