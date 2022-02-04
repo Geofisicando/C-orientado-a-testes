@@ -81,4 +81,58 @@ Execute o comando killall para encerrar todas as instâncias de 'gb_daemon' quan
 killall gb_daemon
 ```
  
- ## Segundo fork and die
+ ## Finalizando o segundo fork and die
+
+Para finalizar o segundo fork and die, nós encerramos o primeiro processo filho utilizando a chamada de sistema exit.
+Como o primeiro filho era o líder da sessão anterior, e o segundo filho não é líder de sessão, quando encerramos o primeiro
+processo filho, o segundo filho não estará acoplado a um terminal de controle e nem poderá conseguir um (pois não é
+líder de sessão). Fizemos como a seguir:
+
+```c
+/* Segundo fork and die (Para gerar o segundo filho) */
+pid = fork();
+if (pid >= 0) {
+   if (pid != 0) { // Encerrar o primeiro filho
+       exit(0);
+   }
+} else { // erro
+        exit(1);
+}
+    
+pause(); // Parar após encerrar o primeiro filho   
+```
+
+### Exemplo de uso da segunda parte da aula
+
+Você pode reproduzir o exemplo de uso presente na pasta [die2](hhttps://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/daemon/daemonize/parte2/die2) deste diretório. Neste exemplo, nós acrescentamos o encerramento do primeiro processo
+filho ao exemplo de uso anterior.
+
+Nós utilizamos a chamada de sistema 'pause', após encerrar o primeiro processo filho, para que você possa visualizar o processo restante
+utilizando o comando 'ps'. Basta compilar com:
+
+```sh
+make
+```
+
+E executar o 'gb_daemon' com:
+
+```sh
+./gb_daemon
+```
+
+Você poderá utilizar o comando 'ps' para visualizar as instâncias de 'gb_daemon' criadas. A saída deverá ser semelhante a esta:
+
+```sh
+ps -xj | grep gb_daemon
+   2127   26114   26113   26113 ?             -1 S     1000   0:00 ./gb_daemon
+  25273   26119   26118   25273 pts/0      26118 S+    1000   0:00 grep --color=auto gb_daemon
+```
+
+Observe que a instância restante do processo 'gb_daemon' não está vinculada a um terminal de controle (sinal de '?' na quarta coluna)
+e nem é líder de sessão.
+
+Execute o comando killall para encerrar todas as instâncias de 'gb_daemon' quando terminar:
+
+```sh
+killall gb_daemon
+```
