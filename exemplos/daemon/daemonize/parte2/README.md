@@ -20,6 +20,28 @@ primeiro processo filho desacople do seu terminal de controle. Para isto, nós u
  A função 'setsid' cria uma nova sessão e torna o processo chamador líder da nova sessão criada. Esta função retornará um número negativo se
  a criação da nova sessão falhar.
  
+ Daí ignoramos o sinal SIGHUP, passando SIG_IGN para a função sinal. Esta função retornará SIG_ERR se falhar.
+ 
+ ```c
+/* Ignorar sinal SIGHUP */
+if ((signal(SIGHUP, SIG_IGN) == SIG_ERR)) {
+    exit(1); // erro
+}
+```
+
+Por fim, fazemos o segundo fork para cirar o segundo processo filho. Isto é feito utilizando a chamada de sistema fork da mesma
+forma como fizemos para a criação do primeiro processo filho, como a seguir:
+
+```c
+/* Segundo fork and die (Para gerar o segundo filho) */
+pid = fork();
+if (pid >= 0) {
+ 	pause(); // Parar após tornar o primeiro filho líder de sessão 
+} else { // erro
+    exit(1);
+}
+```
+ 
 ### Exemplo de uso da primeira parte da aula
 
 Você pode reproduzir o exemplo de uso presente na pasta [liderSessao](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/daemon/daemonize/parte2/liderSessao) deste diretório. Neste exemplo, implementamos a função daemonize até o primeiro fork, criamos o processo filho, encerramos o processo pai e tornamos o primeiro processo filho líder de sessão. Isto feito, após ignorar alguns sinais, nós
