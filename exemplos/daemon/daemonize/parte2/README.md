@@ -104,7 +104,7 @@ pause(); // Parar após encerrar o primeiro filho
 
 ### Exemplo de uso da segunda parte da aula
 
-Você pode reproduzir o exemplo de uso presente na pasta [die2](hhttps://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/daemon/daemonize/parte2/die2) deste diretório. Neste exemplo, nós acrescentamos o encerramento do primeiro processo
+Você pode reproduzir o exemplo de uso presente na pasta [die2](https://github.com/Geofisicando/C-orientado-a-testes/tree/main/exemplos/daemon/daemonize/parte2/die2) deste diretório. Neste exemplo, nós acrescentamos o encerramento do primeiro processo
 filho ao exemplo de uso anterior.
 
 Nós utilizamos a chamada de sistema 'pause', após encerrar o primeiro processo filho, para que você possa visualizar o processo restante
