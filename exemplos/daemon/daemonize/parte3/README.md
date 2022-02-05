@@ -54,3 +54,30 @@ open("/dev/null", O_RDWR);
 ```
 
 As flags O_RDONLY e O_RDWR significam "abrir para a leitura" e "abrir para leitura e escrita", respectivamente.
+
+### Exemplo de uso
+
+Você pode reproduzir o exemplo de uso presente neste diretório. Neste exemplo, finalizamos a implementação da função daemonize.
+Basta compilar com:
+
+```sh
+make
+```
+
+E executar o 'gb_daemon' com:
+
+```sh
+./gb_daemon
+```
+
+Você poderá utilizar o comando 'ps' para visualizar as instâncias de 'gb_daemon' criadas:
+
+```sh
+ps -xj | grep gb_daemon
+```
+
+Execute o comando killall para encerrar todas as instâncias de 'gb_daemon' quando terminar:
+
+```sh
+killall gb_daemon
+```
